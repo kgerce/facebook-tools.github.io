@@ -1,1178 +1,2616 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-<head>
-<meta content='width=device-width, initial-scale=1' name='viewport'/>
-<title>Giải pháp ERP, CRM và Điện toán đám mây | Gimasys</title>
-<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
-<!-- Chrome, Firefox OS and Opera -->
-<meta content='' name='theme-color'/>
-<!-- Windows Phone -->
-<meta content='' name='msapplication-navbutton-color'/>
-<meta content='blogger' name='generator'/>
-<link href='https://gimasysvn.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
-<link href='https://gimasysvn.blogspot.com/' rel='canonical'/>
-<link rel="alternate" type="application/atom+xml" title="Giải pháp ERP, CRM và Điện toán đám mây | Gimasys - Atom" href="https://gimasysvn.blogspot.com/feeds/posts/default" />
-<link rel="alternate" type="application/rss+xml" title="Giải pháp ERP, CRM và Điện toán đám mây | Gimasys - RSS" href="https://gimasysvn.blogspot.com/feeds/posts/default?alt=rss" />
-<link rel="service.post" type="application/atom+xml" title="Giải pháp ERP, CRM và Điện toán đám mây | Gimasys - Atom" href="https://www.blogger.com/feeds/7534153028872665887/posts/default" />
-<!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
-<meta content='https://gimasysvn.blogspot.com/' property='og:url'/>
-<meta content='Giải pháp ERP, CRM và Điện toán đám mây | Gimasys' property='og:title'/>
-<meta content='' property='og:description'/>
-<meta content='https://lh5.googleusercontent.com/proxy/NePpVI_nysGtbdwlgii30gZzKoDKyTImKFVgNSBDNE03IpcC1DErXJdzVZpTf20mV2VIN_ZdG7QMTPrOlfb5F318Z0WEC8mCy2YvlTbU_wRywTa-poS9iuz2uTcOaA=w1200-h630-p-k-no-nu' property='og:image'/>
-<meta content='https://lh3.googleusercontent.com/proxy/bw9wjhnNggHgD2-ga4kgCEtZVsAeaYTfLlEBb3cbfJoscch3bzWM3w_ZagKePTN8fXN6FIKWdIv0GnvIpWVEjfbP-LLQSOIguIpiVJR-jKb9B09QquH5xmbhQg=w1200-h630-p-k-no-nu' property='og:image'/>
-<meta content='https://lh3.googleusercontent.com/proxy/N85qP-l9D9X0QfvgrYjRtUg22Gw5aXKawA_VCs097s8oOLHubI3ECKs-9gwGCWdXg02_GPXDl6WFvEUF4B8kIo8oFQ_k34gU1uTWvHxdBkkq3Fo_uXIEqHCTtxVLoBmR=w1200-h630-p-k-no-nu' property='og:image'/>
-<meta content='https://lh4.googleusercontent.com/proxy/1kNE9Pzj3Qa057VsX-WINixkhZXlJkR4GDBFgAciYS20zqdOLn9P6UH8arxP_0rYHFUIkLLBlTohZz_orWVFUQl45OZ61rKFCc-5_4ukPKVG204yVHbDr4p_dAz9G6fc9DLJKUOjeAw=w1200-h630-p-k-no-nu' property='og:image'/>
-<meta content='https://lh4.googleusercontent.com/proxy/7YF06-itnae77hAXbQ9S9rVFqezjbYguBjHWwheCeGIHjTXLHBGju2BxlwGT-SzWsaODFGDZGmbT7hcP_VqZiF59fiRFdOfkx3rb3uR8NrPcNuq_7PWdRa9DBw=w1200-h630-p-k-no-nu' property='og:image'/>
-<meta content='https://lh5.googleusercontent.com/proxy/XaUPjUDff4zyzhR7t-cFum2gwUokqRds3cXCfctJKuaESmzXfFnXmcGwoLE-a5k0teZdCgS0GOzjYSBNd4uxJRpmHYuu5LDFJaSCuw4LZHLnd4cyv6SN=w1200-h630-p-k-no-nu' property='og:image'/>
-<meta content='https://lh6.googleusercontent.com/proxy/mZgi3FRF8I3DBjGe-x1stgGzraxOD1BgzNrZalRj0AfslDWODuTcqD0PHnVm3MllI1pVhfD5oalsIK6pqCTW0xRIGxa2lu7-sS5TRINobQeCWN-d5XbIDCS7AvSFL1Aw3Mme8DAeJETRSw=w1200-h630-p-k-no-nu' property='og:image'/>
-<meta content='https://lh5.googleusercontent.com/proxy/lh7h33E5_oZrYJFBlPkWol6YaoVd0w4XTNBPM4N33zgJq7YwVG5c9ToAS1zPIUWFBSlrZ0Pen6eMvYrtSiF93cajO8C7MWAnWmGtLjluv5hESuPj9cPQW2rCVw=w1200-h630-p-k-no-nu' property='og:image'/>
-<meta content='https://lh6.googleusercontent.com/proxy/8NtLXgV73ey-DRD0Z2zBJ8h2Fjo5EcduECnZxWNIoBLDpxPVFzXgTCK3viStnqv-rHcAtVbycEkslLiB6DKBlRYKvxJvAO70DT3dRbUg3ECeG-1G4IYc3tRSdJs=w1200-h630-p-k-no-nu' property='og:image'/>
-<meta content='https://lh3.googleusercontent.com/proxy/oAhSzstHxeGCF3V4zeiIyqZvKFgxhaCWWxZyryOW-Iz7pLDHKjb5D0bnrh7h9Sf4tsGY9svZ_r0Wvb_yIE6na902AKOcfEOnhwGA8AsHI671bQnhHBhYWjLYvA_2SufV8Ca0cbPO3ff47B81lLPFy6xQVz-mBWiGJtdGKtOJMm0KU5MtvgYF7zjsICpKbVqCBKgIBG1YV0FpGbFaFSbPPq0=w1200-h630-p-k-no-nu' property='og:image'/>
-<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
-<meta content='summary_large_image' name='twitter:card'/>
-<meta content='Việt Blogger' name='twitter:site'/>
-<meta content='@vietblogdao' name='twitter:creator'/>
-<meta content='2074225682658836' property='fb:app_id'/>
-<meta content='Giải pháp ERP, CRM và Điện toán đám mây | Gimasys' property='og:site_name'/>
-<meta content='website' property='og:type'/>
-<link href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css' rel='stylesheet'/>
-<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
-<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'/>
-<link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,300italic,400italic,500,700|Indie+Flower:400' rel='stylesheet'/>
-<link href='https://vietblogdao.github.io/gimasys/main.css' rel='stylesheet'/>
-<style id='page-skin-1' type='text/css'><!--
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' lang='vi' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+&lt;head&gt;
+<link href='https://cdn.jsdelivr.net/gh/leminhut/blogvnit.com/template.css' rel='stylesheet' type='text/css'/> 
+<link href='https://i.imgur.com/t0KdDaK.png' rel='apple-touch-icon'/>
+    <link href='https://i.imgur.com/3NsOezN.png' rel='icon' sizes='32x32' type='image/png'/>
+    <link href='https://i.imgur.com/PiI2ZU5.png' rel='icon' sizes='16x16' type='image/png'/>
+      
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<link href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'><title><data:blog.pageName/><data:blog.title/>  </title></b:if> <b:if cond='data:blog.metaDescription'><meta expr:content='data:blog.metaDescription' name='description'/><meta expr:content='data:blog.metaDescription' name='og:description'/></b:if> <b:if cond='data:blog.pageType == &quot;error_page&quot;'> <title>Page Not Found - <data:blog.title/> </title><meta content='3;/' http-equiv='refresh'/></b:if> <b:if cond='data:blog.pageType == &quot;item&quot;'><meta content='article' property='og:type'/> <b:else/><meta content='website' property='og:type'/></b:if><meta content='vi_VN' property='og:locale'/> <b:if cond='data:blog.postImageUrl'><meta expr:content='data:blog.postImageUrl' property='og:image'/><b:else/> <b:if cond='data:blog.postImageThumbnailUrl'><meta expr:content='data:blog.postThumbnailUrl' property='og:image'/></b:if></b:if> <b:if cond='data:blog.pageType == &quot;index&quot;'><b:if cond='data:blog.url == data:blog.homepageUrl'> <script type='application/ld+json'>{&quot;@context&quot; : &quot;http://schema.org&quot;,&quot;@type&quot; : &quot;WebSite&quot;,&quot;name&quot; : &quot;Vnit Tech&quot;,&quot;url&quot; : &quot;https://www.blogvnit.com/&quot;}</script><link expr:href='data:blog.canonicalHomepageUrl' hreflang='vi-vn' rel='alternate'/></b:if><b:else/> <b:if cond='data:blog.pageTitle != data:blog.title'><link expr:href='data:blog.canonicalUrl' hreflang='vi-vn' rel='alternate'/> </b:if></b:if><meta content='381153792619656' property='fb:app_id'/><meta content='blogvnit' property='fb:admins'/>
+<meta content='data:blog.canonicalHomepageUrl' property='og:url'/>
+<meta content='https://1.bp.blogspot.com/-YawVVAoidtY/XXOn_d4-2VI/AAAAAAAAQAs/uawfAjea0eos72aSbjJjaSQSOE14l6FggCLcBGAs/s1600/69910469_745868615842433_4204478914963177472_n.png' property='og:image'/>
+<meta content='Vnit Tech' property='og:image:alt'/>
 
---></style>
-<style id='template-skin-1' type='text/css'><!--
-body#layout nav,body#layout .ms-hero-material,body#layout .mt-4,body#layout .mt-6,body#layout aside,body#layout footer,body#layout #ms-slidebar{display:none!important}
---></style>
-<script src='https://vietblogdao.github.io/gimasys/main.js'></script>
-<!--
-</head>--></head>
-<body>
-<!-- Preload -->
-<div class='ms-preload' id='ms-preload'>
-<div id='status'>
-<div class='spinner'><div class='dot1'></div><div class='dot2'></div></div>
-</div>
-</div>
-<!-- Container -->
-<div class='sb-site-container'>
-<!-- Header Navbar -->
-<nav class='navbar navbar-static-top yamm ms-navbar ms-navbar-white navbar-mode'>
-<div class='container container-full'>
-<div class='navbar-header'>
-<a class='navbar-brand' href='https://gimasysvn.blogspot.com/' title='Giải pháp ERP, CRM và Điện toán đám mây | Gimasys'>
-<img alt='Giải pháp ERP, CRM và Điện toán đám mây | Gimasys' src='https://1.bp.blogspot.com/-ejiAw02i9_4/XJT0MPZ4tiI/AAAAAAAAO2c/c06xa_xVoAcN4PfYmzyJGIxTuCLFbL9OgCLcBGAs/s1600/logo.png'/>
-</a>
-</div>
-<div class='navbar-collapse collapse' id='navbar'>
-<ul class='nav navbar-nav'>
-<li class='dropdown active'>
-<a href='https://gimasysvn.blogspot.com/' title='Trang chủ'><i class='zmdi zmdi-home'></i>
-Trang chủ</a>
-</li>
-<li class='dropdown'>
-<a class='dropdown-toggle animated fadeIn animation-delay-5' data-hover='dropdown' data-name='page' data-toggle='dropdown' href='javascript:void(0)'>Giới Thiệu<i class='zmdi zmdi-chevron-down'></i>
-</a>
-<ul class='dropdown-menu dropdown-menu-left animated-2x animated fadeIn'>
-<li><a class='dropdown-link' href='/p/gioi-thieu.html' title='Về Gimasys'>Về Gimasys</a></li>
-<li><a class='dropdown-link' href='/p/khach-hang.html' title='Khách Hàng'>Khách Hàng</a></li>
-<li><a class='dropdown-link' href='#!' title=''>Câu Chuyện Thành Công</a></li>
-</ul>
-</li>
-<li class='dropdown'>
-<a class='dropdown-toggle animated fadeIn animation-delay-5' data-hover='dropdown' data-name='page' data-toggle='dropdown' href='javascript:void(0)'>Giải Pháp - Dịch Vụ<i class='zmdi zmdi-chevron-down'></i></a>
-<ul class='dropdown-menu dropdown-menu-left animated-2x animated fadeIn'>
-<li><a class='dropdown-link' href='#!' title=''>Google</a>
-</li>
-<li><a class='dropdown-link' href='#!' title=''>Salesforce</a>
-</li>
-<li><a class='dropdown-link' href='#!' title=''>Oracle</a>
-</li>
-<li><a class='dropdown-link' href='#!' title=''>NetSuite</a>
-</li>
-<li><a class='dropdown-link' href='#!' title=''>Bentley</a>
-</li>
-<li><a class='dropdown-link' href='#!' title=''>Phát triển phần mềm</a>
-</li>
-<li><a class='dropdown-link' href='#!' title=''>Tích hợp hệ thống</a>
-</li>
-<li><a class='dropdown-link' href='#!' title=''>Tư vấn - Đào tạo - Hỗ trợ - Gia tăng</a>
-</li>
-</ul>
-</li>
-<li class='dropdown'>
-<a class='dropdown-toggle animated fadeIn animation-delay-5' data-hover='dropdown' data-name='page' data-toggle='dropdown' href='javascript:void(0)'>Blogs <i class='zmdi zmdi-chevron-down'></i></a>
-<ul class='dropdown-menu dropdown-menu-left animated-2x animated fadeIn'>
-<li><a class='dropdown-link' href='/search/label/google?&max-results=10' title='Google'>Google</a></li>
-<li><a class='dropdown-link' href='/search/label/ban-tin?&max-results=10' title='Bản Tin'>Bản Tin</a></li>
-<li><a class='dropdown-link' href='/search/label/netsuite?&max-results=10' title='NetSuite'>NetSuite</a>
-</li>
-<li><a class='dropdown-link' href='/search/label/salesforce?&max-results=10' title='Salesforce'>Salesforce</a>
-</li>
-<li><a class='dropdown-link' href='/search/label/aws?&max-results=10' title='Aws'>Aws</a>
-</li>
-<li><a class='dropdown-link' href='/search/label/oracle?&max-results=10' title='Oracle'>Oracle</a>
-</li>
-</ul>
-</li>
-<li class='dropdown'><a href='#!' title='Tuyển Dụng'>Tuyển Dụng</a></li>
-<li class='dropdown'><a href='/p/lien-he.html' title='Liên Hệ'>Liên Hệ</a></li>
-</ul>
-</div>
-<a class='sb-toggle-left btn-navbar-menu' href='javascript:void(0)'><i class='zmdi zmdi-menu'></i></a>
-</div>
-</nav>
-<!-- Layout 1 -->
-<div class='ms-hero ms-hero-material'>
-<span class='ms-hero-bg'></span>
-<div class='container'>
-<div class='col-lg-6 col-md-7'>
-<div class='carousel slide carousel-fade' data-interval='8000' data-ride='carousel' id='carousel-hero'>
-<!-- Wrapper for slides -->
-<div class='carousel-inner' role='listbox'>
-<div class='item active'>
-<div class='carousel-caption'>
-<div class='ms-hero-material-text-container'>
-<header class='ms-hero-material-title animated slideInLeft animation-delay-5'>
-<h1 class='animated fadeInLeft animation-delay-15'> Gimasys </h1>
-<h2 class='animated fadeInLeft animation-delay-18'>Các giải pháp CNTT nhằm tối ưu hóa các nguồn lực DN</h2>
-</header>
-<ul class='ms-hero-material-list'>
-<li class=''>
-<div class='ms-list-icon animated zoomInUp animation-delay-18'>
-<span class='ms-icon ms-icon-circle ms-icon-xlg color-danger shadow-3dp'>
-<i class='zmdi zmdi-cutlery'></i>
-</span>
-</div>
-<div class='ms-list-text animated fadeInRight animation-delay-19'>Là đối tác quan trọng của các tập đoàn công nghệ hàng đầu trên thế giới tại Việt Nam: Google, Oracle, Salesforce</div>
-</li>
-<li class=''>
-<div class='ms-list-icon animated zoomInUp animation-delay-20'>
-<span class='ms-icon ms-icon-circle ms-icon-xlg color-info shadow-3dp'>
-<i class='zmdi zmdi-dns'></i>
-</span>
-</div>
-<div class='ms-list-text animated fadeInRight animation-delay-21'> Cung cấp các giải pháp quản trị DN, các giải pháp chuyên ngành cho phân phối, bán lẻ, Dịch vụ và Sản xuất</div>
-</li>
-<li class=''>
-<div class='ms-list-icon animated zoomInUp animation-delay-22'>
-<span class='ms-icon ms-icon-circle ms-icon-xlg color-success shadow-3dp'>
-<i class='zmdi zmdi-compass'></i>
-</span>
-</div>
-<div class='ms-list-text animated fadeInRight animation-delay-23'>Phát triển - triển khai phần mềm - Quản trị dự án - Tích hợp hệ thống </div>
-</li>
-</ul>
-<div class='ms-hero-material-buttons text-right'>
-<a class='btn btn-warning btn-raised animated fadeInLeft animation-delay-24 mr-2' href='/p/gioi-thieu.html'>
-<i class='zmdi zmdi-settings'></i> Tìm hiểu thêm</a>
-<a class='btn btn-success btn-raised animated fadeInRight animation-delay-24' href='/p/lien-he.html'>
-<i class='zmdi zmdi-download'></i> Liên Hệ
-                    </a>
-</div>
-</div>
-<!-- ms-hero-material-text-container -->
-</div>
-</div>
-<div class='item'>
-<div class='carousel-caption'>
-<div class='ms-hero-material-text-container'>
-<header class='ms-hero-material-title animated slideInLeft animation-delay-5'>
-<h1 class='animated fadeInLeft animation-delay-15 font-smoothing'>G SUITE by Google Cloud</h1>
-<h2 class='animated fadeInLeft animation-delay-18'>Thay đổi cách làm việc với
-                      <span class='color-warning'>G SUITE</span>
-</h2>
-</header>
-<ul class='ms-hero-material-list'>
-<li class=''>
-<div class='ms-list-icon animated zoomInUp animation-delay-18'>
-<span class='ms-icon ms-icon-circle ms-icon-xlg color-warning shadow-3dp'>
-<i class='zmdi zmdi-airplane'></i>
-</span>
-</div>
-<div class='ms-list-text animated fadeInRight animation-delay-19'>Email theo tên miền doanh nghiệp, hỗ trợ trực tiếp 24/7</div>
-</li>
-<li class=''>
-<div class='ms-list-icon animated zoomInUp animation-delay-20'>
-<span class='ms-icon ms-icon-circle ms-icon-xlg color-success shadow-3dp'>
-<i class='zmdi zmdi-bike'></i>
-</span>
-</div>
-<div class='ms-list-text animated fadeInRight animation-delay-21'>Di chuyển dữ liệu dễ dàng, lưu trữ an toàn và kiểm soát bảo mật</div>
-</li>
-<li class=''>
-<div class='ms-list-icon animated zoomInUp animation-delay-22'>
-<span class='ms-icon ms-icon-circle ms-icon-xlg color-danger shadow-3dp'>
-<i class='zmdi zmdi-album'></i>
-</span>
-</div>
-<div class='ms-list-text animated fadeInRight animation-delay-23'>Làm việc và chia sẻ trực tuyến</div>
-</li>
-</ul>
-<div class='ms-hero-material-buttons text-right'>
-<div class='ms-hero-material-buttons text-right'>
-<a class='btn btn-warning btn-raised animated fadeInLeft animation-delay-24 mr-2' href='#!'>
-<i class='zmdi zmdi-settings'></i> Tìm hiểu thêm</a>
-<a class='btn btn-success btn-raised animated fadeInRight animation-delay-24' href='/p/lien-he.html'>
-<i class='zmdi zmdi-download'></i> Liên hệ
-                      </a>
-</div>
-</div>
-</div>
-<!-- ms-hero-material-text-container -->
-</div>
-</div>
-<div class='item'>
-<div class='carousel-caption'>
-<div class='ms-hero-material-text-container'>
-<header class='ms-hero-material-title animated slideInLeft animation-delay-5'>
-<h1 class='animated fadeInLeft animation-delay-15'>Salesforce</h1>
-<h2 class='animated fadeInLeft animation-delay-18'>Chuyển đổi DN của bạn với nền tảng điện toán đám mây</h2>
-</header>
-<ul class='ms-hero-material-list'>
-<li class=''>
-<div class='ms-list-icon animated zoomInUp animation-delay-18'>
-<span class='ms-icon ms-icon-circle ms-icon-xlg color-info shadow-3dp'>
-<i class='zmdi zmdi-city'></i>
-</span>
-</div>
-<div class='ms-list-text animated fadeInRight animation-delay-19'>Marketing - Bán hàng với phần mềm CRM điện toán đám mây theo yêu cầu (on-demand) hàng đầu thế giới. </div>
-</li>
-<li class=''>
-<div class='ms-list-icon animated zoomInUp animation-delay-20'>
-<span class='ms-icon ms-icon-circle ms-icon-xlg color-royal shadow-3dp'>
-<i class='zmdi zmdi-cake'></i>
-</span>
-</div>
-<div class='ms-list-text animated fadeInRight animation-delay-21'> Hiểu khách hàng tốt hơn - Chốt hợp đồng nhanh hơn. Xây dựng độ tin cậy và khách hàng trung thành </div>
-</li>
-<li class=''>
-<div class='ms-list-icon animated zoomInUp animation-delay-22'>
-<span class='ms-icon ms-icon-circle ms-icon-xlg color-warning shadow-3dp'>
-<i class='zmdi zmdi-coffee'></i>
-</span>
-</div>
-<div class='ms-list-text animated fadeInRight animation-delay-23'>Tuỳ biến các ứng dụng - Xây dựng doanh nghiệp được kết nối - Khai thác tối đa sự tương tác</div>
-</li>
-</ul>
-<div class='ms-hero-material-buttons text-right'>
-<div class='ms-hero-material-buttons text-right'>
-<a class='btn btn-warning btn-raised animated fadeInLeft animation-delay-24 mr-2' href='#!'>
-<i class='zmdi zmdi-settings'></i> Tìm hiểu thêm</a>
-<a class='btn btn-success btn-raised animated fadeInRight animation-delay-24' href='/p/lien-he.html'>
-<i class='zmdi zmdi-download'></i> Liên hệ
-                      </a>
-</div>
-</div>
-</div>
-<!-- ms-hero-material-text-container -->
-</div>
-</div>
-<div class='carousel-controls'>
-<!-- Controls -->
-<a class='left carousel-control animated zoomIn animation-delay-30' data-slide='prev' href='#carousel-hero' role='button'>
-<i class='zmdi zmdi-chevron-left'></i>
-<span class='sr-only'>Previous</span>
-</a>
-<a class='right carousel-control animated zoomIn animation-delay-30' data-slide='next' href='#carousel-hero' role='button'>
-<i class='zmdi zmdi-chevron-right'></i>
-<span class='sr-only'>Next</span>
-</a>
-<!-- Indicators -->
-<ol class='carousel-indicators'>
-<li class='animated fadeInUpBig animation-delay-27 active' data-slide-to='0' data-target='#carousel-hero'></li>
-<li class='animated fadeInUpBig animation-delay-28' data-slide-to='1' data-target='#carousel-hero'></li>
-<li class='animated fadeInUpBig animation-delay-29' data-slide-to='2' data-target='#carousel-hero'></li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<div class='col-lg-6 col-md-5'>
-<div class='ms-hero-img animated zoomInUp animation-delay-30'>
-<img alt='gimasys imac mock image' class='img-responsive' src='https://1.bp.blogspot.com/-TDBgAn4OFo8/XJT0jvCofhI/AAAAAAAAO2g/WA7LG86AKMIvojw7ZeCO96MOzjFuHoIFACLcBGAs/s1600/mock-imac-material2.png'/>
-<div class='carousel carousel-fade slide' data-interval='3000' data-ride='carousel' id='carousel-hero-img'>
-<!-- Indicators -->
-<ol class='carousel-indicators carousel-indicators-hero-img'>
-<li class='active' data-slide-to='0' data-target='#carousel-hero-img'></li>
-<li data-slide-to='1' data-target='#carousel-hero-img'></li>
-<li data-slide-to='2' data-target='#carousel-hero-img'></li>
-</ol>
-<!-- Wrapper for slides -->
-<div class='carousel-inner' role='listbox'>
-<div class='ms-hero-img-slider item active'>
-<img alt='Gimasys salesforce hero image' class='img-responsive' src='https://1.bp.blogspot.com/-EimsjutAwAw/XJT03pCZx6I/AAAAAAAAO2o/O4dfrp5KELA7QU35upcdR525cvz1fAtBQCLcBGAs/s1600/hero1.png'/>
-</div>
-<div class='ms-hero-img-slider item'>
-<img alt='Gimasys salesforce hero image' class='img-responsive' src='https://2.bp.blogspot.com/-eYOFCNNRZ8c/XJT1FvbUQJI/AAAAAAAAO2s/iTpU92e2wYYIGq9Q_A-8OkGDtWr90UGkACLcBGAs/s1600/hero3.png'/>
-</div>
-<div class='ms-hero-img-slider item'>
-<img alt='Gimasys salesforce hero image' class='img-responsive' src='https://4.bp.blogspot.com/-mB9vkQM2W9o/XJT1SMtLKQI/AAAAAAAAO2w/zzv5L2gEJiUw5dq8C0vKxLxKTmddbUqaACLcBGAs/s1600/hero2.png'/>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- container -->
-</div>
-<!-- Layout 2 -->
-<div class='container mt-4'>
-<h2 class='text-center color-primary mb-2 wow fadeInDown animation-delay-4'>Dịch Vụ Của Gimasys</h2>
-<p class='lead text-center aco wow fadeInDown animation-delay-5 mw-800 center-block mb-4'>Gimasys là nhà cung cấp dịch vụ, các giải pháp ERP &#8211; phần mềm quản trị doanh nghiệp - điện toán đám mây hàng đầu tại Việt Nam</p>
-<div class='ms-feature col-lg-3 col-md-6 col-sm-6 card wow flipInX animation-delay-4'>
-<div class='text-center card-block'>
-<span class='ms-icon ms-icon-circle ms-icon-xxlg color-info'>
-<i class='zmdi zmdi-cloud-outline'></i>
-</span>
-<h4 class='color-info'>Dịch vụ phát triển phần mềm</h4>
-<p class=''>Gimasys chuyên cung cấp các giải pháp phần mềm ứng dụng mới, được thiết kế chuyên biệt theo yêu cầu giúp các tổ chức và doanh nghiệp được tối ưu hóa các hoạt động thông qua việc triển khai và ứng dụng hệ thống CNTT.
-        </p>
-<a class='btn btn-info' href='#!'>
-<i class='zmdi zmdi-star'></i> Tìm hiểu thêm</a>
-</div>
-</div>
-<div class='ms-feature col-lg-3 col-md-6 col-sm-6 card wow flipInX animation-delay-8'>
-<div class='text-center card-block'>
-<span class='ms-icon ms-icon-circle ms-icon-xxlg color-warning'>
-<i class='zmdi zmdi-desktop-mac'></i>
-</span>
-<h4 class='color-warning'>Triển khai ERP - CRM - Cloud Computing</h4>
-<p class=''>Gimasys là đối tác triển khai của các công ty công nghệ hàng đầu tại Vietnam trên nền tảng Oracle, Google, Salesforce, AWS... với qui trình, giao diện, báo cáo được Việt hoá phù hợp với môi trường kinh doanh tại VN  .</p>
-<a class='btn btn-warning' href='#!'>
-<i class='zmdi zmdi-star'></i> Tìm hiểu thêm</a>
-</div>
-</div>
-<div class='ms-feature col-lg-3 col-md-6 col-sm-6 card wow flipInX animation-delay-10'>
-<div class='text-center card-block'>
-<span class='ms-icon ms-icon-circle ms-icon-xxlg color-success'>
-<i class='zmdi zmdi-download'></i>
-</span>
-<h4 class='color-success'>Tích hợp và chuyển giao hệ thống</h4>
-<p class=''>Việc kết nối các ứng dụng, phần mềm cũ với các hệ thống mới thành một hệ thống đồng bộ, kế thừa là vô cùng quan trọng. Việc hiểu rõ qui trình hoạt động và giải pháp CNTT với đội ngũ giàu kinh nghiệm là một lợi thế của chúng tôi.</p>
-<a class='btn btn-success' href='#!'>
-<i class='zmdi zmdi-star'></i> Tìm hiểu thêm</a>
-</div>
-</div>
-<div class='ms-feature col-lg-3 col-md-6 col-sm-6 card wow flipInX animation-delay-6'>
-<div class='text-center card-block'>
-<span class='ms-icon ms-icon-circle ms-icon-xxlg  color-danger'>
-<i class='zmdi zmdi-flower-alt'></i>
-</span>
-<h4 class='color-danger'>Tư vấn - Đào tạo - Hỗ trợ - Gia tăng</h4>
-<p class=''>Tư vấn - Đào tạo - Hỗ trợ - Gia tăng giúp khách hàng vận hành, bảo trì và sử dụng trơn tru hệ thống và tối ưu hoá ngân sách đầu tư với trên hiệu quả hoạt động giúp quá trình phát triển DN được bền vững và chuyên nghiệp.</p>
-<a class='btn btn-danger' href='#!'>
-<i class='zmdi zmdi-star'></i> Tìm hiểu thêm</a>
-</div>
-</div>
-</div>
-<!-- Layout 3 -->
-<div class='wrap wrap-mountain mt-6'>
-<div class='container'>
-<h2 class='text-center text-light mb-6 wow fadeInDown animation-delay-5'>Công ty TNHH Tích hợp Hệ thống Quản lý Quốc tế (Global Integrated Management System - GIMASYS) </h2>
-<div class='row'>
-<div class='col-md-6 col-md-push-6 mb-4  center-block'>
-<img alt='Mock' class='img-responsive center-block wow zoomIn animation-delay-12' src='https://2.bp.blogspot.com/-WkOLxiUFEvg/XJT47ZDI5PI/AAAAAAAAO4w/2fE5XQvTgEoHwSbSL-VW7hNq5C1oqccXwCLcBGAs/s1600/mock.png'/>
-</div>
-<div class='col-md-6 col-md-pull-6 pr-6'>
-<p class='wow fadeInLeft animation-delay-6'>Thành lập vào tháng 3 năm 2004, Công ty TNHH Tích hợp Hệ thống Quản lý Quốc tế (Global Integrated Management System - GIMASYS), tập hợp những thành viên có nhiều kinh nghiệm trong lĩnh vực phát triển phần mềm quản lý, tư vấn quản trị kinh doanh và triển khai giải pháp CNTT nhằm tối ưu hóa các nguồn lực của tổ chức và doanh nghiệp.</p>
-<p class='wow fadeInLeft animation-delay-7'>Trên chặng đường hình thành, phát triển suốt những năm qua,  GIMASYS đã chính thức được công nhận là đối tác quan trọng của nhiều tập đoàn công nghệ hàng đầu thế giới tại Việt Nam</p>
-<p class='wow fadeInLeft animation-delay-8'>Gimasys hiện nay với hơn 100 cán bộ công nhân viên hoạt động tại Hà Nội và Hồ Chí Minh</p>
-<div class='text-center'>
-<a class='btn btn-warning btn-raised mr-1 wow flipInX animation-delay-14' href='/p/lien-he.html'>
-<i class='zmdi zmdi-chart-donut'></i> Tìm hiểu thêm
-            </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Layout 4 -->
-<div class='container mt-6'>
-<h1 class='font-light'>Quản trị DN với các giải pháp tiên tiến</h1>
-<p class='lead color-primary'>&#8212; Các ứng dụng từ các tập đoàn công nghệ hàng đầu trên thế giới như  Google, Oracle, Salesfores, AWS... </p>
-<div class='panel panel-light panel-flat'>
-<!-- Nav tabs -->
-<ul class='nav nav-tabs nav-tabs-transparent indicator-primary nav-tabs-full nav-tabs-6' role='tablist'>
-<li class='wow fadeInDown animation-delay-6' role='presentation'>
-<a aria-controls='windows' class='withoutripple' data-toggle='tab' href='#windows' role='tab'>
-<i class='zmdi zmdi-google'></i>
-<span class='hidden-xs'>Google</span>
-</a>
-</li>
-<li class='wow fadeInDown animation-delay-4 active' role='presentation'>
-<a aria-controls='macos' class='withoutripple' data-toggle='tab' href='#macos' role='tab'>
-<img alt='Gimasys Salesforce icon' height='32' src='https://3.bp.blogspot.com/-YjzyCygjtW0/XJT5E4BtxOI/AAAAAAAAO48/K-P7ZrhVc94v052HfP1Vdkvbf4-CSwQCQCLcBGAs/s1600/salesforce-icon.png' width='32'/>
-<span class='hidden-xs'>Salesforce</span>
-</a>
-</li>
-<li class='wow fadeInDown animation-delay-2' role='presentation'>
-<a aria-controls='linux' class='withoutripple' data-toggle='tab' href='#linux' role='tab'>
-<img alt='Oracle aws icon' height='16' src='https://4.bp.blogspot.com/-DK_M6cH4iZE/XJT5O8xGSmI/AAAAAAAAO5E/KKIHtQDjVRIHh360VgEGGFlmqye0nTDxACLcBGAs/s1600/oracle-icon.ico' width='16'/>
-<span class='hidden-xs'> Oracle</span>
-</a>
-</li>
-<li class='wow fadeInDown animation-delay-6' role='presentation'>
-<a aria-controls='netsuite' class='withoutripple' data-toggle='tab' href='#netsuite' role='tab'>
-<img alt='Gimasys netsuite icon' height='16' src='https://2.bp.blogspot.com/-JboNgchd3GQ/XJT5ZJLIMxI/AAAAAAAAO5M/rbLqFKBjKu03-Wq0dAD1rOu4WKez74CHQCLcBGAs/s1600/netsuite.png' width='16'/>
-<span class='hidden-xs'>NetSuite</span>
-</a>
-</li>
-<li class='wow fadeInDown animation-delay-4' role='presentation'>
-<a aria-controls='android' class='withoutripple' data-toggle='tab' href='#android' role='tab'>
-<img alt='Gimasys aws icon' height='16' src='https://3.bp.blogspot.com/-cNPiT9n2Pvk/XJT5iHSU2qI/AAAAAAAAO5U/aabNAac01S4TqdPR9Ttdzc4UaYCC9haOgCLcBGAs/s1600/aws-icon.png' width='16'/>
-<span class='hidden-xs'>AWS</span>
-</a>
-</li>
-<li class='wow fadeInDown animation-delay-6' role='presentation'>
-<a aria-controls='ios' class='withoutripple' data-toggle='tab' href='#ios' role='tab'>
-<img alt='Gimasys aws icon' height='16' src='https://3.bp.blogspot.com/-N0nBaOV3WNk/XJT5rPUGPzI/AAAAAAAAO5Y/VNhJf6je3oU90U4AU2yuUxt0-AmIHqz7gCLcBGAs/s1600/bentley-icon.jpg' width='16'/>
-<span class='hidden-xs'>Bentley</span>
-</a>
-</li>
-</ul>
-<div class='panel-body'>
-<!-- Tab panes -->
-<div class='tab-content mt-4'>
-<div class='tab-pane fade' id='windows' role='tabpanel'>
-<div class='row'>
-<div class='col-md-6 col-md-push-6'>
-<img alt='Mock2' class='img-responsive animated zoomIn animation-delay-8' src='https://3.bp.blogspot.com/-idOPk_vmkGY/XJT5z3s5fcI/AAAAAAAAO5g/WBr1m7PVDp4qLwWcsiPOXTiSWpMLgdRgwCLcBGAs/s1600/mock2.png'/>
-</div>
-<div class='col-md-6 col-md-pull-6'>
-<h3 class='text-normal animated fadeInUp animation-delay-4'>Google EcoSystem</h3>
-<p class='lead lead-md animated fadeInUp animation-delay-6'>Google được biết đến rộng rãi với công cụ tìm kiếm thông minh và các ứng dụng miễn phí như Gmail, Google Docs cho người dùng cá nhân. Nhưng bên cạnh đó, Google còn đi đầu trong lĩnh vực ứng dụng công nghệ Cloud với những bộ sản phẩm cho doanh nghiệp như G Suite (Google Apps for Work), Chrome for Work, Google Cloud Platform, Maps for Work, Google Search for Work và Android for Work</p>
-<div class=''>
-<a class='btn btn-info btn-raised animated zoomIn animation-delay-10' href='#!'>
-<i class='zmdi zmdi-info'></i> Tìm Hiểu Thêm</a>
-<a class='btn btn-danger btn-raised mr-1 animated zoomIn animation-delay-12' href='/p/lien-he.html'>
-<i class='zmdi zmdi-info'></i> Liên Hệ</a>
-</div>
-</div>
-</div>
-</div>
-<div class='tab-pane active in fade' id='macos' role='tabpanel'>
-<div class='row'>
-<div class='col-md-6'>
-<img alt='Mock salesfoce imac' class='img-responsive wow animated zoomIn animation-delay-8' src='https://3.bp.blogspot.com/-bCOXU2-sttI/XJT5_EPQVHI/AAAAAAAAO5o/E3BDhcJanY8HTeDyWup48_8T5dJEYP35ACLcBGAs/s1600/mock-salesfoce-imac.png'/>
-</div>
-<div class='col-md-6'>
-<h3 class='text-normal wow animated fadeInUp animation-delay-4'>Chuyển đổi DN của bạn với Salesforce</h3>
-<p class='lead lead-md  wow animated fadeInUp animation-delay-6'> Salesforce cung cấp các giải pháp  chuyên sâu, toàn diện về bán hàng, quản lý, dịch vụ chăm sóc khách hàng trên nền tảng điện toán đám mây. </p>
-<p class='lead lead-md wow animated fadeInUp animation-delay-7'>Salesforce CRM hiện được tin dùng bởi hơn 150.000 doanh nghiệp trên thế giới, với hơn 8 triệu users bởi tính bảo mật, độ tin cậy cao, chi phí linh hoạt tùy vào quy mô doanh nghiệp. </p>
-<div class=''>
-<a class='btn btn-info btn-raised animated zoomIn animation-delay-10' href='#!'>
-<i class='zmdi zmdi-info'></i> Tìm Hiểu Thêm
-                  </a>
-<a class='btn btn-danger btn-raised mr-1 wow animated zoomIn animation-delay-12' href='/p/lien-he.html'>
-<i class='zmdi zmdi-info'></i> Liên Hệ
-                  </a>
-</div>
-</div>
-</div>
-</div>
-<div class='tab-pane fade' id='linux' role='tabpanel'>
-<div class='row'>
-<div class='col-md-6 col-md-push-6'>
-<img alt='Mock imac oracle' class='img-responsive animated zoomIn animation-delay-8' src='https://3.bp.blogspot.com/-DLB25cRR2uA/XJT6L10ci4I/AAAAAAAAO5w/uxb3D8zTkXA-_fwvmqKCKArUQg7zrNjHwCLcBGAs/s1600/mock-imac-oracle.png'/>
-</div>
-<div class='col-md-6 col-md-pull-6'>
-<h3 class='text-normal animated fadeInUp animation-delay-4'>Oracle Solutions & Oracle BI</h3>
-<p class='lead lead-md animated fadeInUp animation-delay-6'>Oracle cloud là giải pháp tổng thể cho DN trong việc triển khai ERP, HCM và CX. Cùng với giải pháp số 1 trên thế giới về cơ sở dữ liệu như dịch vụ ( Platform As Service Paas ) và cơ sở hạ tầng như dịch vụ (Infrastructure As Services IaaS).</p>
-<p class='lead lead-md animated fadeInUp animation-delay-7'>Oracle BI giúp bạn quản trị doanh nghiệp một cách khoa học, tối ưu hoá các nguồn lực, tối ưu hoá chi phí, trợ giúp việc ra quyết định và tăng hiệu suất.</p>
-<div class=''>
-<a class='btn btn-info btn-raised animated zoomIn animation-delay-10' href='#!'>
-<i class='zmdi zmdi-info'></i> Tìm Hiểu Thêm
-                  </a>
-<a class='btn btn-danger btn-raised mr-1 animated zoomIn animation-delay-12' href='#!'>
-<i class='zmdi zmdi-chart-donut'></i> Oracle BI
-                  </a>
-</div>
-</div>
-</div>
-</div>
-<div class='tab-pane fade' id='android' role='tabpanel'>
-<div class='row'>
-<div class='col-md-6'>
-<img alt='New mac aws' class='img-responsive animated zoomIn animation-delay-8' src='https://1.bp.blogspot.com/-7q4xpuaANFQ/XJT6dyXM3II/AAAAAAAAO54/h_bgvSDOSUUF4MAIIrSmX97a1Y5cPsvDQCLcBGAs/s1600/new_mac_aws.png'/>
-</div>
-<div class='col-md-6'>
-<h3 class='text-normal animated fadeInUp animation-delay-4'>Cơ sở hạ tầng cho DN với nền tảng điện toán đám mây AWS</h3>
-<p class='lead lead-md  animated fadeInUp animation-delay-6'>Amazon web services là một nền tảng điện toán đám mây phát triển toàn diện được cung cấp bởi Amazon</p>
-<p class='lead lead-md animated fadeInUp animation-delay-7'>DN chỉ cần trả tiền theo định mức sử dụng (pay as you go) cho hơn 30 dịch vụ đa dạng</p>
-<div class=''>
-<a class='btn btn-info btn-raised animated zoomIn animation-delay-10' href='#!'>
-<i class='zmdi zmdi-info'></i> Tìm Hiểu Thêm</a>
-<a class='btn btn-danger btn-raised mr-1 animated zoomIn animation-delay-12' href='/p/lien-he.html'>
-<i class='zmdi zmdi-chart-donut'></i> Liên Hệ</a>
-</div>
-</div>
-</div>
-</div>
-<div class='tab-pane fade' id='ios' role='tabpanel'>
-<div class='row'>
-<div class='col-md-6 col-md-push-6'>
-<img alt='New mac bentley' class='img-responsive animated zoomIn animation-delay-8' src='https://3.bp.blogspot.com/-8YXeHkcg46A/XJT6oxbWzTI/AAAAAAAAO6A/NywerItr4LMpAeYxlZbgE6mBgjJiEXLugCLcBGAs/s1600/new_mac_bentley.png'/>
-</div>
-<div class='col-md-6 col-md-pull-6'>
-<h3 class='text-normal animated fadeInUp animation-delay-4'>Thiết kế, chế tạo, quản trị dự án với Project Wise </h3>
-<p class='lead lead-md animated fadeInUp animation-delay-6'>Bentley là một hệ sinh thái bao gồm các giải pháp được cung cấp cho các khối ngành như bản đồ, cơ sở hạ tầng và xây dựng... </p>
-<p class='lead lead-md animated fadeInUp animation-delay-7'>Bentley là giải pháp tối ưu phục vụ cho các nhu cầu về quản lý và chế tạo dữ liệu bản đồ; thiết kế mô hình 3D trên nhiều nguồn dữ liệu đầu vào; phối cảnh và dự đoán các thay đổi của cấu trúc thiết kế; quản lý dự án xây dựng, cầu đường... </p>
-<p class='lead lead-md animated fadeInUp animation-delay-8'>Giải pháp Bentley có mặt tại hơn 60 quốc gia trên thế giới và được hàng nghìn kỹ sư, thiết kế tin dùng. </p>
-<div class=''>
-<a class='btn btn-info btn-raised animated zoomIn animation-delay-10' href='#!'>
-<i class='zmdi zmdi-info'></i> Tìm Hiểu Thêm</a>
-<a class='btn btn-danger btn-raised mr-1 animated zoomIn animation-delay-12' href='/p/lien-he.html'>
-<i class='zmdi zmdi-chart-donut'></i> Liên Hệ</a>
-</div>
-</div>
-</div>
-</div>
-<div class='tab-pane fade' id='netsuite' role='tabpanel'>
-<div class='row'>
-<div class='col-md-6 col-md-push-6'>
-<img alt='Netsuite home' class='img-responsive animated zoomIn animation-delay-8' src='https://1.bp.blogspot.com/-6gM2NqzbuEM/XJT60Tw46jI/AAAAAAAAO6I/RpwTGsKHM6orZ2BqgMsHLARtWVQ7oug8wCLcBGAs/s1600/netsuite-home.png'/>
-</div>
-<div class='col-md-6 col-md-pull-6'>
-<h3 class='text-normal animated fadeInUp animation-delay-4'>Netsuite </h3>
-<p class='lead lead-md animated fadeInUp animation-delay-6'>NetSuite là phần mềm quản trị nguồn lực doanh nghiệp (ERP) trên nền tảng điện toán đám mây số 1 trên thế giới</p>
-<p class='lead lead-md animated fadeInUp animation-delay-7'>Quản trị toàn bộ hệ thống thông tin DN theo thời gian thực với một hệ thống Sass ERP.</p>
-<p class='lead lead-md animated fadeInUp animation-delay-8'>Giải pháp toàn diện cho mọi loại hình doanh nghiệp, mọi ngành và mọi vai trò quản trị</p>
-<div class=''>
-<a class='btn btn-info btn-raised animated zoomIn animation-delay-10' href='#!'>
-<i class='zmdi zmdi-info'></i> Tìm hiểu thêm
-                  </a>
-<a class='btn btn-danger btn-raised mr-1 animated zoomIn animation-delay-12' href='/p/lien-he.html'>
-<i class='zmdi zmdi-chart-donut'></i> Liên hệ
-                  </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- panel -->
-</div>
-<!-- Layout 5 -->
-<div class='about-partner-wrapper'>
-<div class='ms-hero-page-override ms-hero-img-meeting ms-hero-bg-dark-light'>
-<div class='container'>
-<div class='text-center'>
-<h1 class='no-m ms-site-title center-block ms-site-title-lg mt-2 animated zoomInDown animation-delay-5'>Đối tác của Gimasys</h1>
-<p class='lead lead-lg color-light text-center center-block mt-2 mw-800 text-uppercase fw-300 animated fadeInUp animation-delay-7'>Gimasys là đối tác quan trọng của các tập đoàn công nghệ hàng đầu tại Việt Nam</p>
-</div>
-</div>
-</div>
-<div class='container'>
-<div class='card card-hero card-flat bg-transparent'>
-<div class='row'>
-<div class='col-lg-4 col-sm-6'>
-<div class='card card-warning wow zoomInUp animation-delay-5'>
-<div class='text-center bg-warning'>
-<a class='' href='javascript:void()'>
-<img alt='Aws' src='https://2.bp.blogspot.com/-34lJ21QlNfU/XJT6_tRi-TI/AAAAAAAAO6M/LiCayQsBcsM6rAapwf3KEhk__AXE8MlKQCLcBGAs/s1600/aws.png'/>
-</a>
-</div>
-<div class='card-block text-center'>
-<h3 class='color-warning'>AWS</h3>
-<p>Công ty Gimasys đã chính thức trở thành đối tác về tư vấn giải pháp điện toán đám mây (cloud computing) của Amazon AWS tại Việt Nam từ tháng 12/2014</p>
-<a class='btn btn-warning' href='#!'>
-<i class='zmdi zmdi-link'></i> Xem Chi Tiết
-                </a>
-</div>
-</div>
-</div>
-<div class='col-lg-4 col-sm-6'>
-<div class='card card-success  wow zoomInUp animation-delay-5'>
-<div class='text-center bg-success '>
-<a class='' href='javascript:void()'>
-<img alt='Google' src='https://2.bp.blogspot.com/-R2Hl_maufk4/XJT7O3tK0fI/AAAAAAAAO6U/rdzC_1r0B6E0xwm906hZ_W4X87PKfcouACLcBGAs/s1600/google.png'/>
-</a>
-</div>
-<div class='card-block text-center'>
-<h3 class='color-royal'>Google</h3>
-<p>Gimasys được Google chính thức công nhận là đối tác tư vấn, cung cấp, triển khai dịch vụ, hỗ trợ và đào tạo GSuite hàng đầu tại Việt Nam từ năm 2011</p>
-<a class='btn btn-royal' href='#!'>
-<i class='zmdi zmdi-link'></i>Xem Chi Tiết</a>
-</div>
-</div>
-</div>
-<div class='col-lg-4 col-sm-6'>
-<div class='card card-royal wow zoomInUp animation-delay-5'>
-<div class='text-center bg-royal'>
-<a class='' href='javascript:void()'>
-<img alt='Bentley' src='https://4.bp.blogspot.com/-YTPsilwLnvM/XJT7aw6Le6I/AAAAAAAAO6Y/VsN210fxmGIIX-JpcjABXJ69ou4chQmEQCLcBGAs/s1600/bentley.png'/>
-</a>
-</div>
-<div class='card-block text-center'>
-<h3 class='color-success'>Bentley</h3>
-<p>Gimasy được công nhận là Partner chính thức trên toàn thế giới. Được Bentley được hỗ trợ, cấp phép đào tạo chuyên nghiệp trong quá trình bán sản phẩm tại thị trường Việt Nam </p>
-<a class='btn btn-danger' href='#!'>
-<i class='zmdi zmdi-link'></i>Xem Chi Tiết
-                </a>
-</div>
-</div>
-</div>
-<div class='col-lg-4 col-sm-6'>
-<div class='card card-primary wow zoomInUp animation-delay-5'>
-<div class='text-center bg-primary'>
-<a class='' href='javascript:void()'>
-<img alt='Netsuite partner' src='https://3.bp.blogspot.com/-JZscaDnTEVI/XJT7ktU-uGI/AAAAAAAAO6c/l_Mm2TBHhDQX92uEPmOknbOm9ghnAhypwCLcBGAs/s1600/netsuite_partner.png'/>
-</a>
-</div>
-<div class='card-block text-center'>
-<h3 class='color-primary'>NetSuite</h3>
-<p>&#8220;Gimasys được công nhận là đối tác chính thức NetSuite trong việc triển khai tại Việt Nam. Các dịch vụ mà Gimasys cung cấp bao gồm: tư vấn, cấp phép, triển khai, hỗ trợ và chuyển đổi.&#8221;</p>
-<a class='btn btn-primary' href='#!'>
-<i class='zmdi zmdi-link'></i> Xem Chi Tiết
-                </a>
-</div>
-</div>
-</div>
-<div class='col-lg-4 col-sm-6'>
-<div class='card card-danger wow zoomInUp animation-delay-5'>
-<div class='text-center bg-danger'>
-<a class='' href='javascript:void()'>
-<img alt='Oracle' src='https://4.bp.blogspot.com/-kFCsz6b6VkE/XJT7yNOiY-I/AAAAAAAAO6g/gBZZkpbwgOIQ2eZ6S8ossXzpyyTI6-whQCLcBGAs/s1600/oracle.png'/>
-</a>
-</div>
-<div class='card-block text-center'>
-<h3 class='color-danger'>Oracle</h3>
-<p>tháng 01 năm 2008 Oracle Việt Nam đã chính thức công nhận GiMASYS là đối tác triển khai quan trọng của họ tại Việt Nam. Năm 2010, GiMASYS đã trở thành đối tác vàng của Oracle.</p>
-<a class='btn btn-danger' href='#!'>
-<i class='zmdi zmdi-link'></i>Xem Chi Tiết
-                </a>
-</div>
-</div>
-</div>
-<div class='col-lg-4 col-sm-6'>
-<div class='card card-info wow zoomInUp animation-delay-5'>
-<div class='text-center bg-info'>
-<a class='' href='javascript:void()'>
-<img alt='Salesforce' src='https://3.bp.blogspot.com/-DG3K0Y4xMMU/XJT8BFH18GI/AAAAAAAAO6o/OTOnodBzyhoclbo6Yz-NtbN61cW16PI5QCLcBGAs/s1600/salesforce-7f.png'/>
-</a>
-</div>
-<div class='card-block text-center'>
-<h3 class='color-info'>Salesforce </h3>
-<p>Gimasys được công nhận là Salesforce Consulting Partner và đã triển khai thành công cho nhiều dự án lớn là các công ty trong top 500 tại thị trường Việt Nam.</p>
-<a class='btn btn-info' href='#!'>
-<i class='zmdi zmdi-link'></i>Xem Chi Tiết
-                </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Layout 6 -->
-<div class='wrap wrap-danger mt-6'>
-<h2 class='text-center no-m'>Khách hàng</h2>
-<div class='carousel carousel-cards carousel-fade slide' data-interval='7000' data-ride='carousel' id='carousel-example-generic'>
-<!-- Indicators -->
-<ol class='carousel-indicators'>
-<li class='active' data-slide-to='0' data-target='#carousel-example-generic'></li>
-<li data-slide-to='1' data-target='#carousel-example-generic'></li>
-<li data-slide-to='1' data-target='#carousel-example-generic'></li>
-<li data-slide-to='1' data-target='#carousel-example-generic'></li>
-</ol>
-<!-- Wrapper for slides -->
-<div class='carousel-inner' role='listbox'>
-<div class='item active'>
-<div class='carousel-caption'>
-<div class='container'>
-<div class='row'>
-<div class='col-md-4'>
-<div class='card animated flipInX animation-delay-2'>
-<blockquote class='blockquote-avatar withripple'>
-<div class='ms-thumbnail-container'>
-<figure class='ms-thumbnail ms-thumbnail-horizontal ms-thumbnail-light'>
-<img alt='Thumb jetstar 248x183' class='img-responsive' src='https://4.bp.blogspot.com/-ICBO7hFeiDo/XJT233r1SjI/AAAAAAAAO3g/_nTDR_f5vHIa-DZRsCGcyhM-T2ruwaX0QCLcBGAs/s1600/thumb_Jetstar.jpg'/>
-<figcaption class='ms-thumbnail-caption text-center'>
-<div class='ms-thumbnail-caption-content'>
-<h3 class='ms-thumbnail-caption-title color-primary'>Jetstar Pacific - Vietnam</h3>
-<p>Vé máy bay giá rẻ Jetstar. Đường bay trong nước và quốc tế từ Việt Nam.</p>
-</div>
-</figcaption>
-</figure>
-</div>
-</blockquote>
-</div>
-</div>
-<div class='col-md-4'>
-<div class='card animated flipInX animation-delay-2'>
-<blockquote class='blockquote-avatar withripple'>
-<div class='ms-thumbnail-container'>
-<figure class='ms-thumbnail ms-thumbnail-horizontal ms-thumbnail-light'>
-<img alt='Thumb hbc logo' class='img-responsive' src='https://2.bp.blogspot.com/-xvoFmANfd_A/XJT3E841-MI/AAAAAAAAO3k/U565d9uyVNIXAlhKo5jqDLY-KRheRvodgCLcBGAs/s1600/thumb_hbc_logo.png'/>
-<figcaption class='ms-thumbnail-caption text-center'>
-<div class='ms-thumbnail-caption-content'>
-<h3 class='ms-thumbnail-caption-title color-primary'>Hoa Binh Corporation</h3>
-<p>Công ty Cổ Phần Hòa Bình (HBC) phân phối các sản phẩm máy động lực phục vụ cho nông nghiệp, dân dụng và công nghiệp.</p>
-</div>
-</figcaption>
-</figure>
-</div>
-</blockquote>
-</div>
-</div>
-<div class='col-md-4'>
-<div class='card animated flipInX animation-delay-2'>
-<blockquote class='blockquote-avatar withripple'>
-<div class='ms-thumbnail-container'>
-<figure class='ms-thumbnail ms-thumbnail-horizontal ms-thumbnail-light'>
-<img alt='Thumb massan logo' class='img-responsive' src='https://1.bp.blogspot.com/-Ut-D2-0l6SA/XJT3fqz6dLI/AAAAAAAAO34/VGkJboNXi0gLH7CYX22ouC75ySHRQEJ5ACLcBGAs/s1600/thumb_massan_logo.png'/>
-<figcaption class='ms-thumbnail-caption text-center'>
-<div class='ms-thumbnail-caption-content'>
-<h3 class='ms-thumbnail-caption-title color-primary'>Massan Group</h3>
-<p>Là công ty hàng đầu trong khối DN tư nhân và là DN nằm trong top 3 vốn hoá trên thị trường CK  tại Việt Nam</p>
-</div>
-</figcaption>
-</figure>
-</div>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class='item'>
-<div class='carousel-caption'>
-<div class='container'>
-<div class='row'>
-<div class='col-md-4'>
-<div class='card animated flipInX animation-delay-2'>
-<blockquote class='blockquote-avatar withripple'>
-<div class='ms-thumbnail-container'>
-<figure class='ms-thumbnail ms-thumbnail-horizontal ms-thumbnail-light'>
-<img alt='Thumb techcombank logo' class='img-responsive' src='https://2.bp.blogspot.com/-In75JwUMKko/XJT3oy-kiII/AAAAAAAAO4A/F8J8BtnHlF0P1Osir2IliYSQJMGeAGKigCLcBGAs/s1600/thumb_techcombank_logo.png'/>
-<figcaption class='ms-thumbnail-caption text-center'>
-<div class='ms-thumbnail-caption-content'>
-<h3 class='ms-thumbnail-caption-title color-primary'>Techcom Bank</h3>
-<p>
-                                Techcombank là một trong những ngân hàng thương mại cổ phần lớn nhất Việt Nam
-                              </p>
-</div>
-</figcaption>
-</figure>
-</div>
-</blockquote>
-</div>
-</div>
-<div class='col-md-4'>
-<div class='card animated flipInX animation-delay-2'>
-<blockquote class='blockquote-avatar withripple'>
-<div class='ms-thumbnail-container'>
-<figure class='ms-thumbnail ms-thumbnail-horizontal ms-thumbnail-light'>
-<img alt='Thumb vp logo' class='img-responsive' src='https://4.bp.blogspot.com/-7W3sncJDyDM/XJT3zbp1GfI/AAAAAAAAO4E/sGWejFzTXBwbncyDKjKGo5mr-ZyEMYu0gCLcBGAs/s1600/thumb_vp_logo.png'/>
-<figcaption class='ms-thumbnail-caption text-center'>
-<div class='ms-thumbnail-caption-content'>
-<h3 class='ms-thumbnail-caption-title color-primary'>VP Bank</h3>
-<p>Là một trong những ngân hàng TMCP thành lập sớm nhất tại Việt nam.</p>
-</div>
-</figcaption>
-</figure>
-</div>
-</blockquote>
-</div>
-</div>
-<div class='col-md-4'>
-<div class='card animated flipInX animation-delay-2'>
-<blockquote class='blockquote-avatar withripple'>
-<div class='ms-thumbnail-container'>
-<figure class='ms-thumbnail ms-thumbnail-horizontal ms-thumbnail-light'>
-<img alt='Thumb muaban' class='img-responsive' src='https://4.bp.blogspot.com/-8Y5XcPwYfgw/XJT4EzfjGgI/AAAAAAAAO4Q/BLV_-EZmyl0n0FBvJv0VhZdt06cAzttxwCLcBGAs/s1600/thumb_muaban.png'/>
-<figcaption class='ms-thumbnail-caption text-center'>
-<div class='ms-thumbnail-caption-content'>
-<h3 class='ms-thumbnail-caption-title color-primary'>Website muaban.net</h3>
-<p>Là website rao vặt trực tuyến uy tín hàng đầu tại Việt Nam với hơn hơn 45 triệu pageviews mỗi tháng. </p>
-</div>
-</figcaption>
-</figure>
-</div>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class='item'>
-<div class='carousel-caption'>
-<div class='container'>
-<div class='row'>
-<div class='col-md-4'>
-<div class='card animated flipInX animation-delay-2'>
-<blockquote class='blockquote-avatar withripple'>
-<div class='ms-thumbnail-container'>
-<figure class='ms-thumbnail ms-thumbnail-horizontal ms-thumbnail-light'>
-<img alt='Thumb vietnamairlines' class='img-responsive' src='https://3.bp.blogspot.com/-c7upqvYvVLg/XJT4URWTvpI/AAAAAAAAO4c/FSnxypnCsiQICXbnLd8d3dPuHfNZ0A8PwCLcBGAs/s1600/thumb_vietnamairlines.png'/>
-<figcaption class='ms-thumbnail-caption text-center'>
-<div class='ms-thumbnail-caption-content'>
-<h3 class='ms-thumbnail-caption-title color-primary'>Vietnam Airlines</h3>
-<p>Hãng Hàng không Quốc gia Việt Nam</p>
-</div>
-</figcaption>
-</figure>
-</div>
-</blockquote>
-</div>
-</div>
-<div class='col-md-4'>
-<div class='card animated flipInX animation-delay-2'>
-<blockquote class='blockquote-avatar withripple'>
-<div class='ms-thumbnail-container'>
-<figure class='ms-thumbnail ms-thumbnail-horizontal ms-thumbnail-light'>
-<img alt='Thumb be' class='img-responsive' src='https://4.bp.blogspot.com/-wp3fYFn4Vvk/XJT4dPIu1KI/AAAAAAAAO4k/yfrsRcoG9oA8SYvxPACefoBdIzbpSAtEQCLcBGAs/s1600/thumb_be.png'/>
-<figcaption class='ms-thumbnail-caption text-center'>
-<div class='ms-thumbnail-caption-content'>
-<h3 class='ms-thumbnail-caption-title color-primary'>Be Group</h3>
-<p>ứng dụng gọi xe "be"</p>
-</div>
-</figcaption>
-</figure>
-</div>
-</blockquote>
-</div>
-</div>
-<div class='col-md-4'>
-<div class='card animated flipInX animation-delay-2'>
-<blockquote class='blockquote-avatar withripple'>
-<div class='ms-thumbnail-container'>
-<figure class='ms-thumbnail ms-thumbnail-horizontal ms-thumbnail-light'>
-<img alt='Thumb vitaldairy' class='img-responsive' src='https://3.bp.blogspot.com/-N6P60ypX_tQ/XJT4oRYPE2I/AAAAAAAAO4o/SdyJNZnCCYM2PlGkAHyXNSHjC8b_dWorgCLcBGAs/s1600/thumb_vitaldairy.png'/>
-<figcaption class='ms-thumbnail-caption text-center'>
-<div class='ms-thumbnail-caption-content'>
-<h3 class='ms-thumbnail-caption-title color-primary'>VitaDairy</h3>
-<p>CÔNG TY CỔ PHẦN SỮA VITADAIRY VIỆT NAM</p>
-</div>
-</figcaption>
-</figure>
-</div>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Controls -->
-<a class='left carousel-control btn btn-white btn-raised' data-slide='prev' href='#carousel-example-generic' role='button'>
-<i class='zmdi zmdi-arrow-left'></i>
-<span class='sr-only'>Previous</span>
-</a>
-<a class='right carousel-control btn btn-white btn-raised' data-slide='next' href='#carousel-example-generic' role='button'>
-<i class='zmdi zmdi-arrow-right'></i>
-<span class='sr-only'>Next</span>
-</a>
-</div>
-</div>
-<!-- Layout 7 -->
-<div class='container mt-6'>
-<h2 class='text-center color-primary mb-4'>Câu Chuyện Thành Công</h2>
-<div class='owl-dots'></div>
-<div class='owl-carousel owl-theme'>
-<div class='card animation-delay-6'>
-<div class='card-block'>
-<h3 class='color-primary'>Hoa Binh Corporation</h3>
-<p>Gmail đa&#771; giu&#769;p HBC gia&#777;i quyê&#769;t 90% vâ&#769;n đê&#768; truyê&#768;n tin so vơ&#769;i hê&#803; thô&#769;ng email cu&#771;. Hangouts thay thê&#769; 95% cuô&#803;c ho&#803;p truyê&#768;n thô&#769;ng, giu&#769;p HBC tiê&#769;t kiê&#803;m chi phi&#769; va&#768; thơ&#768;i gian đa&#769;ng kê&#777;. Nhi&#768;n chung, Gsuite đa&#771; giu&#769;p HBC gia&#777;i quyê&#769;t 70% ca&#769;c vâ&#769;n đê&#768; so vơ&#769;i ca&#769;c hê&#803; thô&#769;ng la&#768;m viê&#803;c trươ&#769;c đây.</p>
-<p class='text-right'>
-<a class='btn btn-primary btn-raised text-right' href='#!' role='button'>
-<i class='zmdi zmdi-collection-image-o'></i> Xem Tiếp
-            </a>
-</p>
-</div>
-</div>
-<div class='card card-dark-inverse animation-delay-8'>
-<div class='card-block'>
-<h3 class='color-primary'>Nanoco Corporation</h3>
-<p>Chu&#769;ng tôi gă&#803;p kha&#769; nhiê&#768;u kho&#769; khăn trong viê&#803;c đô&#768;ng bô&#803; tiê&#769;n tri&#768;nh công viê&#803;c ta&#803;i 9 công ty chi nha&#769;nh va&#768; 700 văn pho&#768;ng kinh doanh. Ca&#769;c công cu&#803; G Suite ta&#803;o ra mô&#803;t nê&#768;n ta&#777;ng ti&#769;ch hơ&#803;p nhă&#768;m trao đô&#777;i, cô&#803;ng ta&#769;c, qua&#777;n ly&#769; va&#768; đa&#777;m ba&#777;o ATTT, quy tri&#768;nh va&#768; li&#803;ch tri&#768;nh la&#768;m viê&#803;c.</p>
-<p class='text-right'>
-<a class='btn btn-primary btn-raised text-right' href='#!' role='button'>
-<i class='zmdi zmdi-collection-image-o'></i> Xem Tiếp
-            </a>
-</p>
-</div>
-</div>
-<div class='card animation-delay-6'>
-<div class='card-block'>
-<h3 class='color-primary'>TST Corporation</h3>
-<p>TST đạt chỉ tiêu kinh doanh vượt mức nhờ sự hỗ trợ đắc lực từ G Suite.  TST không co&#768;n lo nga&#803;i vê&#768; spam va&#768; virus. Thông tin va&#768; dư&#771; liê&#803;u đươ&#803;c lưu trư&#771;, qua&#777;n ly&#769; va&#768; kiê&#777;m soa&#769;t vơ&#769;i công cu&#803; Admin Console, Google Sites va&#768; Google Drive ma&#803;nh me&#771;.</p>
-<p class='text-right'>
-<a class='btn btn-primary btn-raised text-right' href='#!' role='button'>
-<i class='zmdi zmdi-collection-image-o'></i> Xem Tiếp
-            </a>
-</p>
-</div>
-</div>
-</div>
-</div>
-<!-- Footer -->
-<aside class='ms-footbar'>
-<div class='container'>
-<div class='row'>
-<div class='col-md-4'>
-<div class='ms-footbar-block'>
-<h3 class='ms-footbar-title'>Sitemap</h3>
-<ul class='list-unstyled ms-icon-list three_cols'>
-<li><a href='https://gimasysvn.blogspot.com/' title='Trang chủ'><i class='zmdi zmdi-home'></i>
-Trang chủ</a></li>
-<li><a href='#!' title=''><i class='zmdi zmdi-edit'></i> G Suite</a></li>
-<li><a href='#!' title=''><i class='zmdi zmdi-case'></i> Việc làm</a></li>
-<li><a href='#!' title=''><i class='zmdi zmdi-accounts'></i> Salesforce</a></li>
-<li><a href='#' title=''><i class='zmdi zmdi-time'></i> Oracle</a></li>
-<li><a href='#!' title=''><i class='zmdi zmdi-time'></i> Oracle BI</a></li>
-<li><a href='/p/gioi-thieu.html' title='Giới Thiệu'><i class='zmdi zmdi-favorite-outline'></i> Giới Thiệu</a></li>
-<li><a href='/p/khach-hang.html'><i class='zmdi zmdi-image-o'></i> Khách Hàng</a></li>
-<li><a href='/search?&max-results=10' title='Tin tức'><i class='zmdi zmdi-help'></i> Blog</a></li>
-<li><a href='#!' title=''><i class='zmdi zmdi-help'></i> AWS</a></li>
-<li><a href='#!'><i class='zmdi zmdi-favorite-outline'></i> Bently</a></li>
-<li><a href='#!' title=''><i class='zmdi zmdi-lock'></i> NetSuite</a></li>
-<li><a href='/p/lien-he.html' title='Liên Hệ'><i class='zmdi zmdi-email'></i> Liên Hệ</a></li>
-</ul>
-</div>
-<div class='ms-footbar-block'>
-<h3 class='ms-footbar-title'>Social Media</h3>
-<div class='ms-footbar-social'>
-<a class='btn-circle btn-facebook' href='#!' rel='noopener nofollow' target='_blank' title='Facebook'><i class='zmdi zmdi-facebook'></i></a>
-<a class='btn-circle btn-linkedin' href='#!' rel='noopener nofollow' target='_blank' title='Linkedin'><i class='zmdi zmdi-linkedin'></i></a>
-<a class='btn-circle btn-youtube' href='#!' rel='noopener nofollow' target='_blank' title='YouTube'><i class='zmdi zmdi-youtube'></i></a>
-</div>
-</div>
-</div>
-<div class='col-md-5 ms-footer-alt-color'>
-<div class='ms-footbar-block'>
-<h3 class='ms-footbar-title text-center mb-2'>Tin mới</h3>
-<div class='ms-footer-media'></div>
-</div>
-</div>
-<div class='col-md-3 ms-footer-text-right'>
-<div class='ms-footbar-block'>
-<div class='ms-footbar-title'>
-<h3 class='no-m ms-site-title'>GIMASYS</h3>
-</div>
-<h3 class='ms-footbar-title'>Trụ sở chính</h3>
-<address class='no-mb'>
-<p><i class='color-danger-light zmdi zmdi-pin mr-1'></i> Tầng 17, Hà Nội Creative City, 01 Lương Yên, P. Bạch Đằng, Hà Nội</p>
-<p><i class='color-royal-light zmdi zmdi-phone mr-1'></i> (+84) 89 9829 928</p>
-<h3 class='ms-footbar-title'>Chi nhánh HCM</h3>
-<p><i class='color-danger-light zmdi zmdi-pin mr-1'></i> Tầng 8, Tòa nhà Estar, 147-149 Võ Văn Tần, P. 6, Q.3, TP. Hồ Chí Minh </p>
-<p><i class='color-royal-light zmdi zmdi-phone mr-1'></i> (+84) 28 7305 0186</p>
-<p><i class='color-info-light zmdi zmdi-email mr-1'></i>
-<a href='mailto:contact.vietblogdao@gmail.com'>info@gimasys.com</a></p>
-</address>
-</div>
-</div>
-</div>
-</div>
-</aside>
-<footer class='ms-footer'>
-<div class='container'>
-<p>Copyright &#169; <script>document.write(new Date().getFullYear())</script>
-<b>Gimasysvn</b>. All Rights Reserved.</p>
-</div>
-</footer>
-<!-- Back-Top -->
-<div class='btn-back-top'>
-<a class='btn-circle btn-circle-primary btn-circle-sm btn-circle-raised ' data-scroll='' href='#' id='back-top'>
-<i class='zmdi zmdi-long-arrow-up'></i>
-</a>
-</div>
-</div>
-<!-- Slidebar Menu-->
-<div class='ms-slidebar sb-slidebar sb-left sb-style-overlay' id='ms-slidebar'>
-<div class='sb-slidebar-container'>
-<header class='ms-slidebar-header'>
-<div class='ms-slidebar-login'>
-<a class='withripple' href='#!'><i class='zmdi zmdi-account'></i> Log in</a>
-<a class='withripple' href='#!'><i class='zmdi zmdi-account-add'></i> Register</a>
-</div>
-<div class='ms-slidebar-title'>
-<form action='/search' class='search-form' role='search'>
-<input class='search-input' id='search-box-slidebar' name='q' placeholder='Tìm kiếm' type='text'/>
-<input name='max-results' type='hidden' value='10'/>
-<label for='search-box-slidebar'><i class='zmdi zmdi-search'></i></label>
-</form>
-<div class='ms-slidebar-t'>
-<img alt='G icon 60' height='40' src='https://4.bp.blogspot.com/-XTK9K7grGqo/XJT9aE6ss3I/AAAAAAAAO64/MxxQGAW-ImMf8M1fv8Pjr-6Ad5tYnlL1wCLcBGAs/s1600/g_icon.png' width='40'/>
-<h3>Gimasys</h3>
-</div>
-</div>
-</header>
-<ul aria-multiselectable='true' class='ms-slidebar-menu' id='slidebar-menu' role='tablist'>
-<li><a class='link' href='https://gimasysvn.blogspot.com/' title='Trang chủ'><i class='zmdi zmdi-home'></i>
-Trang chủ</a></li>
-<li class='panel' id='sch1' role='tab'>
-<a aria-controls='sc1' aria-expanded='false' class='collapsed' data-parent='#slidebar-menu' data-toggle='collapse' href='#sc1' role='button'>
-<i class='zmdi zmdi-view-compact'></i> Giới Thiệu</a>
-<ul aria-labelledby='sch1' class='panel-collapse collapse' id='sc1' role='tabpanel'>
-<li><a href='/p/gioi-thieu.html'>Về Gimasys</a></li>
-<li><a href='#!'>Khách Hàng</a></li>
-<li><a href='#!'>Câu Chuyện Thành Công</a></li>
-<li><a href='/p/lien-he.html'>Liên Hệ</a></li>
-</ul>
-</li>
-<li class='panel' id='sch2' role='tab'>
-<a aria-controls='sc2' aria-expanded='false' class='collapsed' data-parent='#slidebar-menu' data-toggle='collapse' href='#sc2' role='button'>
-<i class='zmdi zmdi-desktop-mac'></i> Giải Pháp - Dịch Vụ</a>
-<ul aria-labelledby='sch2' class='panel-collapse collapse' id='sc2' role='tabpanel'>
-<li><a href='#!' title=''>Google</a></li>
-<li><a href='#!' title=''>Salesforce</a></li>
-<li><a href='#!' title=''>Oracle</a></li>
-<li><a href='#!' title=''>NetSuite</a></li>
-<li><a href='#!' title=''>AWS</a></li>
-<li><a href='#!' title=''>Bentley</a></li>
-</ul>
-</li>
-<li class='panel' id='sch4' role='tab'>
-<a aria-controls='sc4' aria-expanded='false' class='collapsed' data-parent='#slidebar-menu' data-toggle='collapse' href='#sc4' role='button'>
-<i class='zmdi zmdi-edit'></i> Blog</a>
-<ul aria-labelledby='sch4' class='panel-collapse collapse' id='sc4' role='tabpanel'>
-<li><a href='/search/label/google?&max-results=10' title='Google'>Google</a></li>
-<li><a href='/search/label/ban-tin?&max-results=10' title='Bản Tin'>Bản Tin</a></li>
-<li><a href='/search/label/netsuite?&max-results=10' title='NetSuite'>NetSuite</a></li>
-<li><a href='/search/label/salesforce?&max-results=10' title='Salesforce'>Salesforce</a></li>
-<li><a href='/search/label/oracle?&max-results=10' title='Oracle'>Oracle</a></li>
-</ul>
-</li>
-</ul>
-<div class='ms-slidebar-social ms-slidebar-block'>
-<h4 class='ms-slidebar-block-title'>Social Links</h4>
-<div class='ms-slidebar-social'>
-<a class='btn-circle btn-circle-raised btn-facebook' href='#!' rel='noopener nofollow' target='_blank' title='Facebook'>
-<i class='zmdi zmdi-facebook'></i>
-<div class='ripple-container'></div>
-</a>
-<a class='btn-circle btn-circle-raised btn-youtube' href='#!' rel='noopener nofollow' target='_blank' title='YouTube'>
-<i class='zmdi zmdi-youtube'></i>
-<div class='ripple-container'></div>
-</a>
-<a class='btn-circle btn-circle-raised btn-linkedin' href='#!' rel='noopener nofollow' target='_blank' title='Linkedin'>
-<i class='zmdi zmdi-linkedin'></i>
-<div class='ripple-container'></div>
-</a>
-</div>
-</div>
-</div>
-</div>
-<!-- Contact Form -->
-<div class='btn-popup' role='dialog'>
-<div class='btn-popup-container'>
-<h3 class='text-center'>Đăng ký dùng thử miễn phí</h3>
-<form action='https://docs.google.com/forms/u/2/d/e/1FAIpQLSfwRr9QbhX7lG3NO-mgDRRT1KfBy2U_xaemxXl-dJ5GyoLmNw/formResponse' id='mG61Hd' name='contact-form' target='hidden_iframe' type='POST'>
-<label>Họ tên *</label>
-<input aria-label='Họ và tên' autocomplete='off' name='entry.1624308118' placeholder='Nhập tên của bạn...' required='' spellcheck='false' type='text' value=''/>
-<label>Điện thoại *</label>
-<input aria-label='Số điện thoại liên hệ' autocomplete='off' name='entry.1624308118' pattern='(\+84|0)\d{9,10}' placeholder='Nhập số điện thoại...' required='' spellcheck='false' type='text' value=''/>
-<label>Địa chỉ Email *</label>
-<input aria-label='Email của bạn' autocomplete='off' name='entry.994682309' pattern='[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}' placeholder='Nhập địa chỉ email...' required='' spellcheck='false' type='email' value=''/>
-<label>Nội dung *</label>
-<textarea aria-label='Nhu cầu của bạn' autocomplete='off' name='entry.1527296560' placeholder='Nhập nội dung...' required='' spellcheck='false' value=''></textarea>
-<input aria-label='Gửi liên hệ' id='submit' type='submit' value='Gửi'/>
-</form>
-<span class='btn-popup-close img-replace'></span>
-<iframe border='0' height='0' name='hidden_iframe' style='display: none;' width='0'></iframe>
-</div>
-</div>
-<div class='float-quick-action'>
-<a class='cart-bottom cuk-cart-bottom email-popup' href='javascript:;' title='Đăng ký dùng thử'>
-<i class='icon-iregister-trial'></i>
-<div class='text-edge-wap'>
-<span class='register-trial-text'>Đăng ký dùng thử</span>
-<span class='free-text'>Miễn phí</span>
-<span class='clear'></span>
-</div>
-</a>
-<div class='clear'></div>
-<a class='hotline-bottom pcDevice' href='tel:0908562750' title='Hotline'>
-<i class='icon-hotline'></i>
-<div class='text-edge-wap'>
-<span class='register-trial-text'>Hotline</span>
-<span class='free-text'>090 856 2750</span>
-<span class='clear'></span>
-</div>
-</a>
-</div>
-<script>//<![CDATA[
-$(window).on('load', function() {
-  $('.btn-popup-close').click(function() {
-    $('.btn-popup').removeClass('is-visible')
-    localStorage.setItem('is-clicked', 'true');
-  })
-  var local_Storage = localStorage.getItem('is-clicked');
-  if (local_Storage == "true") {
-    $('.btn-popup').removeClass('is-visible')
-  } else {
-    setTimeout(function() {
-      $('.btn-popup').addClass('is-visible')
-    }, 5000)
+<meta content='dUiTMPM8Sbopb4dl-3MZ-pCX7NTvebNdZnfUaMjNfYA' name='google-site-verification'/>
+<b:if cond='data:blog.pageType == &quot;index&quot;'><title><data:blog.pageTitle/> </title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/><meta content='blogger' name='generator'/> <meta content='#fac50b' name='theme-color'/><meta content='#fac50b' name='msapplication-navbutton-color'/><data:blog.openIdOpTag/> <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/><link expr:href='data:blog.url.canonical' rel='canonical'/> <data:blog.feedLinks/><b:if cond='data:blog.pageType != &quot;index&quot;'><b:include name='openGraphMetaData'/></b:if> <meta content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' name='viewport'/>
+<link href='//www.blogger.com/openid-server.g' rel='openid.server'/> <link expr:href='data:blog.homepageUrl' rel='openid.delegate'/> <link expr:href='data:blog.url' rel='canonical'/> 
+<b:if cond='data:blog.searchLabel'> <link expr:href='data:label.url + &quot;?&amp;max-results=15&quot;' rel='canonical'/>
+<meta content='Vnit Tech ✅Dịch Vụ Seo , Thiết Kế Website Chuyên Nghiệp , Chia Sẻ Giá Trị Là Đam Mê✅' name='description'/>
+<link href='data:blog.canonicalHomepageUrl' rel='canonical'/>
+<meta content='vi_VN' property='og:locale'/>
+<meta content='website' property='og:type'/>
+<meta content='blogvnit' property='og:site_name'/>
+<meta content='Vnit Tech , Vnit , Blog Vnit' name='keywords'/></b:if>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+<link expr:href='&quot;https://www.blogvnit.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<meta content='https://1.bp.blogspot.com/-YawVVAoidtY/XXOn_d4-2VI/AAAAAAAAQAs/uawfAjea0eos72aSbjJjaSQSOE14l6FggCLcBGAs/s1600/69910469_745868615842433_4204478914963177472_n.png' property='og:image:secure_url'/>
+<meta content='1280' property='og:image:width'/>
+<meta content='720' property='og:image:height'/>
+
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='Vnit Tech ✅Dịch Vụ Seo , Thiết Kế Website Chuyên Nghiệp , Chia Sẻ Giá Trị Là Đam Mê✅' name='twitter:description'/>
+<meta content='Vnit Tech' name='twitter:title'/>
+<meta content='https://1.bp.blogspot.com/-YawVVAoidtY/XXOn_d4-2VI/AAAAAAAAQAs/uawfAjea0eos72aSbjJjaSQSOE14l6FggCLcBGAs/s1600/69910469_745868615842433_4204478914963177472_n.png' name='twitter:image'/>
+ </b:if>
+<!-- End Meta seo-->
+<!--Đêm không tăng đêm dài vô tận , ... ngày ngày ngồi code trăng dài hơn đêm -->
+<script type='application/ld+json'>
+{
+  &quot;@context&quot;: &quot;https://schema.org/&quot;,
+  &quot;@type&quot;: &quot;Book&quot;,
+  &quot;name&quot;: &quot;Vnit Tech&quot;,
+  &quot;description&quot;: &quot;Vnit Tech &#9989;Dịch Vụ Seo , Thiết Kế Website Chuyên Nghiệp , Chia Sẻ Giá Trị Là Đam Mê&#9989;&quot;,
+  &quot;aggregateRating&quot;: {
+    &quot;@type&quot;: &quot;AggregateRating&quot;,
+    &quot;ratingValue&quot;: &quot;63&quot;,
+    &quot;bestRating&quot;: &quot;100&quot;,
+    &quot;ratingCount&quot;: &quot;20&quot;
   }
-})
-//]]></script>
-<script>//<![CDATA[
-$('.email-popup').click(function() {
-  $('.btn-popup').addClass('is-visible')
-})
-$('form[name=contact-form]').on('submit',function(){
-  $('#submit').attr('value','Thư của bạn đã được gửi đi.').css('color','red')
-  document.querySelector('#submit').disabled = true;
-})
-//]]></script>
-<!-- End Contact Form -->
-<script async='async' src='https://wchat.freshchat.com/js/widget.js'></script>
-<script>//<![CDATA[
-  window.fcSettings = {
-    token: "3811c6af-a24d-4f69-baee-083bbd380b89",
-    host: "https://wchat.freshchat.com"
-  };
-  //]]></script>
-<script>//<![CDATA[
-  $.ajax({
-    type: 'GET',
-    url: '/feeds/posts/default',
-    data: {
-      'max-results': 3,
-      'alt': 'json'
-    },
-    dataType: 'jsonp',
-    success: function(k) {
-      if (k.feed.entry) {
-        for (var t = 0; t < k.feed.entry.length; t++) {
-          var e = k.feed.entry[t];
-          for (var a = 0; a < e.link.length; a++) {
-            if ("alternate" == e.link[a].rel) {
-              var s = e.link[a].href;
-              break
-            }
-          }
-          var d = e.title.$t,
-          p = e.published.$t.substring(8, 10) + '/' + e.published.$t.substring(5, 7) + '/' + e.published.$t.substring(0, 4);
-          if ('media$thumbnail' in e) {
-            var i = e.media$thumbnail.url;
-          } else {
-            var st = e.content.$t,
-              at = st.indexOf("<img"),
-              bt = st.indexOf('src="', at),
-              ct = st.indexOf('"', bt + 5),
-              dt = st.substr(bt + 5, ct - bt - 5);
-            if (at != -1 && bt != -1 && ct != -1 && dt != "") {
-              i = dt;
-            } else {
-              i = "https://4.bp.blogspot.com/-00O66C-eBQs/W0IcokXSnOI/AAAAAAAAL_k/g4KtDm7SkQsoe7_G0vZ_C_nU0Gf_-kyVQCLcBGAs/s75/safe_image.png";
-            }
-          }
-          $('.ms-footer-media').append('<div class="media"><div class="media-left media-middle"><a href='+ s +' title="'+ d +'"> <img alt="Thumb g suite 600x337" class="media-object media-object-circle" height="75" src='+ i +' width="75"></a></div><div class="media-body"><h4 class="media-heading"><a href='+ s +' title="'+ d +'">'+ d +'</a> </h4><div class="media-footer"><span><i class="zmdi zmdi-time color-info-light"></i> '+ p +'</span></div></div></div>')        
-        }
+}
+</script>
+<script type='application/ld+json'> { &quot;@context&quot;: &quot;http://schema.org&quot;, &quot;@type&quot;: &quot;WebSite&quot;, &quot;url&quot;: &quot;https://www.blogvnit.com&quot;, &quot;potentialAction&quot;: { &quot;@type&quot;: &quot;SearchAction&quot;, &quot;target&quot;: &quot;https://www.blogvnit.com/search?q={search_term_string}&quot;, &quot;query-input&quot;: &quot;required name=search_term_string&quot; } } </script>
+<script type='application/ld+json'>
+{
+&quot;@context&quot;: &quot;http://schema.org&quot;,
+&quot;@type&quot;: &quot;Course&quot;,
+&quot;name&quot;: &quot;Vnit Tech&quot;,
+&quot;description&quot;: &quot;Blogvnit.com thủ thuật facebook &#9989;Blogger, Thủ Thuật seo&#9989; win 10&#9989; Template blogger, thủ thuật Internet tổng hợp. Xem thêm.&quot;,
+&quot;provider&quot;: {
+&quot;@type&quot;: &quot;Organization&quot;,
+&quot;name&quot;: &quot;Vnit Tech&quot;,
+&quot;sameAs&quot;: &quot;https://www.blogvnit.com&quot;
+}
+}
+</script>
+
+<!-- Kết Thúc Dữ Liệu Cấu Trúc blogvnit.com -->
+<b:skin><![CDATA[
+]]></b:skin>
+<b:if cond='data:blog.pageType != &quot;index&quot;'>
+<link href='https://cdn.jsdelivr.net/gh/leminhut/blogvnit.com/google_ads.css' rel='stylesheet' type='text/css'/>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<link href='https://cdn.jsdelivr.net/gh/leminhut/blogvnit.com/cloud-label-widget.css' rel='stylesheet' type='text/css'/> 
+</b:if>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<link href='https://cdn.jsdelivr.net/gh/leminhut/blogvnit.com/Responsive.css' rel='stylesheet' type='text/css'/>
+</b:if>
+
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<style>
+  a:hover {cursor : url(&quot;https://lh4.googleusercontent.com/-OzoqkxhEd2c/WrRwBntnciI/AAAAAAAABOA/2VSpdmfP22E5PzAssjYRGtjyHjDQqDr0ACLcBGAs/s1600/khoirom4.png&quot;), progress;} HTML,BODY{cursor: url(&quot;https://lh4.googleusercontent.com/-KbJ7U5FZ4aI/WrRwAwjMyDI/AAAAAAAABN4/OVT0WhVJwhEw839PLeQ01qbN_Jmo4dxKgCLcBGAs/s1600/khoirom3.png&quot;), progress;}
+.post{overflow:visible;position:relative;width:22.8%;float:left;margin:0 13px 25px;height:220px;border-bottom:0px solid #e9e9e9;box-shadow:0 3px 20px 0 rgba(0,0,0,.2)}
+.post-outer{margin:0 -13px}
+.title-secondary{display:none}
+.post-title{font-size:16px;margin:0 0 10px;border-bottom:0 solid #e9e9e9;padding:0 10px;line-height:24px;text-align:center}
+
+@media (max-width:1180px){.post{width:22.6%}}@media (max-width:1100px){.post{width:22.4%}}@media (max-width:1040px){.post{width:22.3%}}
+@media (max-width:1000px){.post{width:30%}}@media (max-width:840px){.post{width:30%}}@media (max-width:800px){.post{width:29.5%}}
+@media (max-width:700px){.post{width:45.5%}}@media (max-width:600px){.post{width:44.6%}}@media (max-width:500px){.post{width:94%}}
+@media (max-width:450px){.post{width:93%}}@media (max-width:350px){.post{width:91.6%}}
+  </style>
+</b:if>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'><style type='text/css'>
+.entry-content img{max-width:90%!important}.post-title { margin-bottom: 10px }
+.post-body h2 { font-size: 24px; line-height: 30px; margin: 8px 0 }.post-body h3 { font-size: 20px; line-height: 26px; margin: 8px 0 }
+</style></b:if>
+<b:if cond='data:blog.pageType == &quot;item&quot;'><style type='text/css'>
+.post-body ol, .post-body ul { padding: 10px 0 20px; margin: 0 0 0 10px; text-align: left }
+.post-body ol li { list-style-type: decimal; padding: 0 0 5px }.post-body img { max-width: 90%; height: auto }
+.post-body ul{padding-left:0!important}.post-body ul li {list-style-type:none}
+.post-body ul li:before{content:&quot;\f054&quot;;margin:0 7px;font-family:Fontawesome;font-weight:200;font-size:13px}
+</style></b:if>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js' type='text/javascript'/>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<script src='https://cdn.jsdelivr.net/gh/leminhut/blogvnit.com/var_summary.js' type='text/javascript'/>  
+</b:if>
+
+<script src='https://cdn.jsdelivr.net/gh/leminhut/blogvnit.com/jQuery_lazy-load.js' type='text/javascript'/>
+<script type='text/javascript'>
+$(function() { $(&quot;img&quot;) .lazyload({ placeholder : &quot;//img1.blogblog.com/img/blank.gif&quot;, effect: &quot;fadeIn&quot; }); });</script>
+&lt;/head&gt;&lt;!--<head/>--&gt;
+<body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
+
+<div id='top_blogger_EN'>
+<div class='cont_blogger_VN'>
+<a href='/'>
+<div class='content_blogger_ENV'>
+<div class='centre_blogger-text_vne'>
+<h2 class='_title'>Vnit Tech</h2>
+<p>Chia Sẻ Giá Trị</p>
+</div>
+</div>
+</a>
+<br/>
+<div class='tim-kiem-blogger'>
+<form action='/search/' id='searchform' method='get'>
+<input id='s' name='q' placeholder='Nhập từ khóa và nhấn enter...' type='text'/>
+<input id='searchsubmit' type='submit' value='TÌM'/>
+</form>
+</div>
+<div id='post-title-style2'>
+<div class='post-title-style2'>
+<p>
+<a href='/p/thong-tin-lien-he.html' title='Liên Hệ Dịch Vụ'>Liên Hệ Dịch Vụ</a>
+</p>
+</div>
+</div>
+</div>
+<section class='button-down' id='button-down'>
+<a href='#continue'><span/><span style='margin-top: 15px'/><span style='margin-top: 30px'/></a>
+</section>
+<div class='cont_blogger_VN'>
+</div>
+</div>
+<div id='continue'/>
+   
+  <b:if cond='data:blog.pageType == &quot;index&quot;'><h1 style='display:none'>Vnit Tech - Dịch Vụ Seo , Thiết Kế Website Chuyên Nghiệp</h1></b:if>
+  <section id='top'/>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+    <div itemscope='itemscope' itemtype='http://schema.org/Blog'>
+        <meta expr:content='data:blog.title' itemprop='name'/>
+    </div>
+</b:if>
+  
+<div class='ct-wrapper'>
+<header itemscope='itemscope' itemtype='http://schema.org/WPHeader'>
+<div class='container'>
+
+      <div class='header-inner-wrap'>
+        <b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
+          <b:widget id='Header1' locked='true' title='Blog Vnit - Dịch Vụ Seo , Thiết Kế Website Chuyên Nghiệp (Tiêu đề)' type='Header' version='1'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'/>
+              <b:widget-setting name='displayHeight'>0</b:widget-setting>
+              <b:widget-setting name='sectionWidth'>600</b:widget-setting>
+              <b:widget-setting name='useImage'>false</b:widget-setting>
+              <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+              <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+              <b:widget-setting name='displayWidth'>0</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+
+  <b:if cond='data:useImage'>
+    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+      <b:if cond='data:mobile'>
+          <div id='header-inner'>
+            <div class='titlewrapper' style='background: transparent'>
+                <b:include name='title'/>
+            </div>
+            <b:include name='description'/>
+          </div>
+        <b:else/>
+          <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                        + &quot;background-position: &quot;                        + data:backgroundPositionStyleStr + &quot;; &quot;                        + data:widthStyleStr                        + &quot;min-height: &quot; + data:height                        + &quot;_height: &quot; + data:height                        + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+            <div class='titlewrapper' style='background: transparent'>
+                <b:include name='title'/>
+            </div>
+            <b:include name='description'/>
+          </div>
+        </b:if>
+    <b:else/>
+      <!--Show the image only-->
+      <div id='header-inner'>
+       <a expr:href='data:blog.homepageUrl' style='display: block'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
+          </a>
+        <!--Show the description-->
+        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+          <b:include name='description'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <!--No header image -->
+    <div id='header-inner'>
+      <div class='titlewrapper'>
+          <b:include name='title'/>
+      </div>
+      <b:include name='description'/>
+    </div>
+  </b:if>
+</b:includable>
+            <b:includable id='description'>
+  <div class='descriptionwrapper'>
+    <p class='description'><span><data:description/></span></p>
+  </div>
+</b:includable>
+            <b:includable id='title'>
+<h2 class='title'><a expr:href='data:blog.homepageUrl' expr:title='data:blog.title' itemprop='url'>
+  <span itemprop='name'><div class='fontpro'>Blog Vnit</div></span>
+</a></h2>
+
+</b:includable>
+          </b:widget>
+        </b:section>
+      </div>
+
+<nav id='navigation' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement'>
+<!--<a aria-label='mobile menu' class='nav-toggle'> <span/> <span/> <span/> </a>-->
+
+<a class='toggle-nav toggleMenu' href='javascript:;'><i class='fa fa-bars'/></a>
+<ul class='menu-left'>
+  <!--<li itemprop='name'><a class='logo' href='/'>Trang Chủ</a></li>-->
+
+
+
+  <li itemprop='name'><a>FACEBOOK<i class='fa fa-angle-down nav-none' style='margin:0 0 0 5px'/></a>
+ <ul class='submenu nav-none'>
+
+   <li><a href='/search/label/developer Facebook'>developer Facebook</a></li>
+   <li><a href='/search/label/Marketing Facebook'>Marketing Facebook</a></li>
+   <li><a href='/search/label/Unlock Facebook'>Unlock Facebook</a></li>
+<li><a href='/search/label/Tính Năng Facebook'>Tính Năng Facebook</a></li>
+
+
+  </ul></li>
+
+ <li itemprop='name'><a>WINDOWS<i class='fa fa-angle-down nav-none' style='margin:0 0 0 5px'/></a>
+ <ul class='submenu nav-none'>
+
+   <li><a href='/search/label/Thủ Thuật Win 10'>Thủ Thuật Win 10</a></li>
+   <li><a href='/search/label/Phần Mềm Đồ Họa'>Phần Mềm Đồ Họa</a></li>
+   <li><a href='/search/label/Phần Mềm Bảo Mật'>Phần Mềm Bảo Mật</a></li>
+   <li><a href='/search/label/Phần Mềm Văn Phòng'>Phần Mềm Văn Phòng</a></li>
+  </ul></li>
+
+ <li itemprop='name'><a>BLOGGER<i class='fa fa-angle-down nav-none' style='margin:0 0 0 5px'/></a>
+ <ul class='submenu nav-none'>
+
+   <li><a href='/search/label/TEMPLATE'>TEMPLATE</a></li>
+   <li><a href='/search/label/Seo Tip'>Seo Tip</a></li>
+   <li><a href='/search/label/Thủ Thuật Blogspot'>Thủ Thuật Blogspot</a></li>
+   <li><a href='/search/label/Fix Lỗi Blogger'>Fix Lỗi Blogger</a></li>
+
+
+
+  </ul></li>
+
+
+<li itemprop='name'><a>Androi<i class='fa fa-angle-down nav-none' style='margin:0 0 0 5px'/></a>
+ <ul class='submenu nav-none'>
+
+   <li><a href='/search/label/apps mod'>apps mod</a></li>
+   <li><a href='/search/label/Tin Tức Android'>Tin Tức Android</a></li>
+   <li><a href='/search/label/Thủ Thuật Android'>Thủ Thuật Android</a></li>
+  
+  </ul></li>
+
+  <li itemprop='name'><a>Ebook<i class='fa fa-angle-down nav-none' style='margin:0 0 0 5px'/></a>
+ <ul class='submenu nav-none'>
+   <li><a href='/search/label/sách hay'>Tổng Hợp</a></li>
+<li><a href='/search/label/Sách Kinh Tế'>Sách Kinh Tế</a></li>
+<li><a href='/search/label/Sách Kỹ Năng'>Sách Kỹ Năng</a></li>
+<li><a href='/search/label/Sách Tâm Lý'>Sách Tâm Lý</a></li>
+
+  </ul></li>
+ <li itemprop='name'><a>Web_TOOLS<i class='fa fa-angle-down nav-none' style='margin:0 0 0 5px'/></a>
+ <ul class='submenu nav-none'>
+   <li><a href='/p/up-anh-lay-lick.html'> Úp Ảnh Lấy Link</a></li>
+<li><a href='/2019/06/photopea-online-thiet-ke-anh-dep.html'> Photoshop online</a></li>
+<li><a href='/p/blog-page_84.html'> Test Code Online</a></li>
+<li><a href='/p/img-margin-0-0-10px.html'> Migrating from GitHub </a></li>
+  </ul></li>
+
+  
+   <li itemprop='name'><a>FB_TOOLS<i class='fa fa-angle-down nav-none' style='margin:0 0 0 5px'/></a>
+ <ul class='submenu nav-none'>
+   <li><a href='https://leminhut.github.io/facebook-tools.github.io/batkhien'> Bật Khiên Fb </a></li>
+   <li><a href='https://leminhut.github.io/facebook-tools.github.io/cover-token-sang-cookie'> Cover Token </a></li>
+	  <li><a href='https://leminhut.github.io/facebook-tools.github.io/delete-albums'> Delete Album Photo </a></li>
+	   <li><a href='https://leminhut.github.io/facebook-tools.github.io/doc-tin-nhan-bang-token'> Read Inbox Cursh </a></li>
+<li><a href='https://leminhut.github.io/facebook-tools.github.io/remove-adaccounts-no-payment'> Xóa Tài Khoản Ads Die </a></li>
+<li><a href='https://leminhut.github.io/facebook-tools.github.io/xac-nhan-ban-be'> Xác Nhận Kết Bạn </a></li>
+<li><a href='https://leminhut.github.io/facebook-tools.github.io/loc-ban-be-khong-tuong-tac'> Lọc Bạn Bè </a></li>
+  </ul></li>
+  
+  
+</ul>
+</nav>
+
+</div>
+  </header>
+<b:if cond='data:blog.searchLabel'>
+<style>
+.breadcrumbs{display:none}
+div#label-intro{z-index:20;margin:0;color:#fff;text-align:center;height:100%;position:absolute;width:100%}
+.label-intro{z-index:2;position:absolute;width:100%;height:100%}
+div#label-intro div.noi-dung{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);width:1080px;max-width:100%;text-align:left;padding:0 0 0 8em;box-sizing:border-box}
+div#label-intro div.noi-dung i.labels{left:0;position:absolute;top:50%;transform:translate(0,-50%);font-size:6em;font-weight:100;opacity:.3}
+div#label-intro div.noi-dung div.title{font-weight:700;font-size:2.5em;text-shadow:6px 6px 0 rgba(0,0,0,0.1)}
+div#label-intro div.noi-dung div.content{width:600px;max-width:100%}
+/*div#label-intro div.noi-dung div.title small.cap{display:block;font-size:14px;font-weight:300}*/
+@keyframes bsw-wave2{0%{transform:translateX(0) translateZ(0) scaleY(1)}50%{transform:translateX(-25%) translateZ(0) scaleY(0.55)}100%{transform:translateX(-50%) translateZ(0) scaleY(1)}}
+.waveWrapper{z-index:0;overflow:hidden;position:relative;left:0;top:0;margin:auto;width:100%;height:420px;user-select:none;-webkit-user-select:none}
+.bsw-wavebg{position:absolute;width:100%;overflow:hidden;height:100%;bottom:0;background:linear-gradient(-45deg,#f5efef, #EE7752, #E73C7E, #23A6D5, #23D5AB,#764ba2,#7577a9);background-size:400% 400%;-webkit-animation:Gradient 50s ease infinite;-moz-animation:Gradient 50s ease infinite;animation:Gradient 50s ease infinite}
+.bsw-bgt{z-index:15;opacity:0.5}
+.bsw-bgm{z-index:10;opacity:0.75}
+.bsw-bgb{z-index:5}
+.wave{position:absolute;left:0;width:200%;height:100%;background-repeat:repeat no-repeat;background-position:0 bottom;transform-origin:center bottom}
+.bsw-wavetop{background-size:50% 100px}
+.bsw-wave-ani .bsw-wavetop{animation:move-wave 3s;-webkit-animation:move-wave 3s;-webkit-animation-delay:1s;animation-delay:1s}
+.bsw-wave-mid{background-size:50% 120px}
+.bsw-wave-ani .bsw-wave-mid{animation:bsw-wave2 10s linear infinite}
+.bsw-wave-bot{background-size:50% 100px}
+.bsw-wave-ani .bsw-wave-bot{animation:bsw-wave2 15s linear infinite}
+.bsw_wrapper{margin-top:15px}
+@-webkit-keyframes Gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@-moz-keyframes Gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@keyframes Gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+</style>
+<div class='waveWrapper bsw-wave-ani'>
+<div id='label-intro'>
+<div class='label-intro'>
+<div class='noi-dung'>
+<i class='labels fa fa-folder-open'/>
+  <div class='title'><!--<small class='cap'>CHUYÊN MỤC</small>--><span><data:blog.pageName/></span></div>
+  <div class='content'>Nơi chia sẻ những bài viết, tài liệu, thủ thuật và mẹo vặt hay nhất về &#39;<span style='font-weight:700'><data:blog.pageName/></span>&#39; giúp bạn nhanh chóng tìm ra thứ mình cần!</div>
+  </div>
+  </div>
+</div>
+  <div class='bsw-wavebg bsw-bgt'>
+    <div class='wave bsw-wavetop' style='background-image: url(&apos;http://front-end-noobs.com/jecko/img/wave-top.png&apos;)'/>
+  </div>
+  <div class='bsw-wavebg bsw-bgm'>
+    <div class='wave bsw-wave-mid' style='background-image: url(&apos;http://front-end-noobs.com/jecko/img/wave-mid.png&apos;)'/>
+  </div>
+  <div class='bsw-wavebg bsw-bgb'>
+    <div class='wave bsw-wave-bot' style='background-image: url(&apos;http://front-end-noobs.com/jecko/img/wave-bot.png&apos;)'/>
+  </div>
+</div>
+  </b:if>
+
+<div class='clear'/>
+
+    <div class='outer-wrapper'>
+  
+<div class='container'>
+<b:section class='crosscol' id='crosscol' showaddelement='yes'/><div class='clear'/>
+
+</div><!--Div Container-->
+
+
+<div class='container'>
+<div class='main-wrapper'>
+        <div class='main-inner-wrap'>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<style>
+#mayyoulike{height:42px;line-height:41px;background:#fff;margin:0 auto 15px}
+.mayyoulike-text{background:#7596c8;line-height:40px;float:left;font-size:17px;padding:0 15px;color:#FFF;position:relative;margin-right:25px;border-radius: 3px 0 0 3px}
+.mayyoulike-text:after{width:0;height:0;border-top:20px solid transparent;border-bottom:20px solid transparent;border-left:20px solid #46a28d;position:absolute;right:-20px;top:0;content:&quot;&quot;;display:block;border-left-color:#7596c8}
+#mayyoulike a{color: #333;transition: .3s;overflow:hidden}
+#mayyoulike a:hover{color: #7596c8;}
+#mayyoulike img{float: right;width: 35px;padding-right:5px;}
+#mayyoulike{box-sizing:border-box;background:#fff;box-shadow:0 0 12px rgba(0,0,0,0.1);border:1px solid #d5d5d5;border-radius:3px}
+@media (max-width:1100px) and (min-width:850px){#mayyoulike img{display:none}}
+@media (min-width:850px) and (max-width:980px){ #mayyoulike{display:none}}
+@media (max-width:650px){#mayyoulike{display:none}}
+.scroller {height: 40px;line-height: 40px;float: left;margin-left: 7px;overflow:hidden;display:inline-block}
+.scroller span{display:block;font-size:18px;overflow:hidden}
+.scroller .inner {animation: scroll 10s infinite ease-out;}
+.scroller:hover .inner{-webkit-animation-play-state:paused;animation-play-state: paused}
+</style>
+
+
+</b:if>
+          <b:section class='main' id='main' name='Blog Main' showaddelement='no'>
+            <b:widget id='Blog1' locked='true' title='Bài đăng trên Blog' type='Blog' version='1'>
+              <b:widget-settings>
+                <b:widget-setting name='commentLabel'>nhận xét bạn đọc</b:widget-setting>
+                <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+                <b:widget-setting name='authorLabel'>By</b:widget-setting>
+                <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+                <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                <b:widget-setting name='timestampLabel'>-</b:widget-setting>
+                <b:widget-setting name='reactionsLabel'>Bạn Thấy Như Thế Nào</b:widget-setting>
+                <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+                <b:widget-setting name='showLocation'>false</b:widget-setting>
+                <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+                <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+                <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='backlinksLabel'>Links to this post</b:widget-setting>
+                <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+                <b:widget-setting name='style.textcolor'>#2196f3</b:widget-setting>
+                <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+                <b:widget-setting name='style.urlcolor'>#212121</b:widget-setting>
+                <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                <b:widget-setting name='style.linkcolor'>#757575</b:widget-setting>
+                <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='showLabels'>true</b:widget-setting>
+                <b:widget-setting name='postLabelsLabel'>Từ Khóa:</b:widget-setting>
+                <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+                <b:widget-setting name='showReactions'>false</b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main' var='top'>
+  <b:if cond='!data:mobile'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+<b:include data='posts' name='breadcrumb'/>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.isDateStart and not data:post.isFirstPost'>
+          &lt;/div&gt;&lt;/div&gt;
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-outer&quot;&gt;
+        </b:if>
+        <b:if cond='data:post.dateHeader'>
+          <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-posts&quot;&gt;
+        </b:if>
+        <div class='post-outer'>
+          <b:include data='post' name='post'/>
+    
+        </div>
+
+        <!-- Ad -->
+        <b:if cond='data:post.includeAd'>
+          <div class='inline-ad'>
+            <data:adCode/>
+          </div>
+        </b:if>
+      </b:loop>
+      <b:if cond='data:numPosts != 0'>
+        &lt;/div&gt;&lt;/div&gt;
+      </b:if>
+    </div>
+
+    <!-- navigation -->
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:include name='nextprev'/>
+</b:if>
+
+    <!-- feed links -->
+    <b:include name='feedLinks'/>
+
+  <b:else/>
+    <b:include name='mobile-main'/>
+  </b:if>
+
+  <b:if cond='data:top.showPlusOne'>
+    <data:top.googlePlusBootstrap/>
+  </b:if>
+
+</b:includable>
+              <b:includable id='backlinkDeleteIcon' var='backlink'>
+  <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
+    <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
+      <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+    </a>
+  </span>
+</b:includable>
+              <b:includable id='backlinks' var='post'>
+</b:includable>
+              <b:includable id='breadcrumb' var='posts'>
+<b:if cond='data:blog.homepageUrl != data:blog.url'>
+    <b:if cond='data:view.isPage'>
+        <div class='breadcrumbs'><span><a class='bhome' expr:href='data:blog.homepageUrl'><i class='fa fa-home'/> Trang chủ</a></span> <i class='fa fa-angle-right'/> <span><data:blog.pageName/></span></div>
+        <b:else/>
+        <b:if cond='data:view.isPost'>
+            <div class='breadcrumbs' xmlns:v='http://rdf.data-vocabulary.org/#'>
+                <span typeof='v:Breadcrumb'><a class='bhome' expr:href='data:blog.homepageUrl' property='v:title' rel='v:url'><i class='fa fa-home'/> Trang chủ</a></span><i class='fa fa-angle-right'/>
+                <b:loop values='data:posts' var='post'>
+                    <b:if cond='data:post.labels'>
+                        <b:loop values='data:post.labels' var='label'>
+                            <span typeof='v:Breadcrumb'>
+                               <a expr:href='data:label.url + &quot;?&amp;max-results=15&quot;' property='v:title' rel='v:url'><data:label.name/></a>
+                            </span>
+                            <b:if cond='data:label.isLast != &quot;true&quot;'><i class='fa fa-angle-right'/></b:if>
+                        </b:loop>
+                        <b:else/> Không có nhãn
+                    </b:if>
+                    <i class='fa fa-angle-right'/><span><data:post.title/></span>
+                </b:loop>
+            </div>
+            <b:else/>
+            <b:if cond='data:view.isArchive'>
+                <div class='breadcrumbs'>
+                    <span><a class='bhome' expr:href='data:blog.homepageUrl'><i class='fa fa-home'/> Trang chủ</a></span> <i class='fa fa-angle-right'/> <span> Lưu trữ cho <data:blog.pageName/></span>
+                </div>
+                <b:else/>
+                <b:if cond='data:view.isMultipleItems'>
+                    <div class='breadcrumbs'>
+                        <b:if cond='data:blog.pageName == &quot;&quot;'>
+                            <span><a class='bhome' expr:href='data:blog.homepageUrl'><i class='fa fa-home'/> Trang chủ</a></span> <i class='fa fa-angle-right'/> <span>Tất cả bài đăng</span>
+                            <b:else/>
+                            <span><a class='bhome' expr:href='data:blog.homepageUrl'><i class='fa fa-home'/> Trang chủ</a></span> <i class='fa fa-angle-right'/> <span><data:blog.pageName/></span>
+                        </b:if>
+                    </div>
+                </b:if>
+            </b:if>
+        </b:if>
+    </b:if>
+</b:if>
+</b:includable>
+              <b:includable id='comment-form' var='post'/>
+              <b:includable id='commentDeleteIcon' var='comment'/>
+              <b:includable id='comment_count_picker' var='post'/>
+              <b:includable id='comment_picker' var='post'/>
+              <b:includable id='comments' var='post'/>
+              <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:include cond='data:post.allowComments and data:post.feedLinks' data='post.feedLinks' name='feedLinksBody'/>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+              <b:includable id='feedLinksBody' var='links'>
+</b:includable>
+              <b:includable id='iframe_comments' var='post'/>
+              <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <div class='date-header'>
+        <span><data:post.dateHeader/></span>
+      </div>
+    </b:if>
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:include cond='data:blog.pageType != &quot;static_page&quot;                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+              <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+<b:include data='posts' name='breadcrumb'/>
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+              <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      
+    </b:if>
+
+
+    <div class='mobile-desktop-link'>
+  
+    </div>
+
+  </div>
+  <div class='clear'/>
+
+</b:includable>
+              <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+ <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+
+          <b:if cond='data:post.thumbnailUrl'>
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
+
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:elseif cond='data:post.url and data:blog.url != data:post.url'/>
+                <a expr:href='data:post.url'><data:post.title/></a>
+              <b:else/>
+                <data:post.title/>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+            <data:post.body/>
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <span itemprop='name'><data:post.author/></span>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <span itemprop='name'><data:post.author/></span>
+                    </span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <meta expr:content='data:post.url.canonical' itemprop='url'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+        
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+              <b:includable id='nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+     
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <span id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+      </span>
+    </b:if>
+
+    
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+              <b:includable id='post' var='post'>
+<b:if cond='data:blog.pageType == &quot;item&quot;'> 
+ </b:if>
+  <div class='post hentry uncustomized-post-template' itemprop='blogPost' itemtype='http://schema.org/BlogPosting'>
+    <b:if cond='data:post.firstImageUrl'>
+      <meta expr:content='data:post.firstImageUrl' itemprop='image_url'/>
+    </b:if>
+    <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+    <meta expr:content='data:post.id' itemprop='postId'/>
+
+    <a expr:name='data:post.id'/>
+
+
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+
+    <b:if cond='data:post.title'>
+      <h2 class='post-title entry-title' itemprop='name'>
+      <b:if cond='data:post.link or (data:post.url and data:blog.url != data:post.url)'>
+        <a expr:href='data:post.link ? data:post.link : data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+      </h2>
+    </b:if>
+
+</b:if>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+
+    <b:if cond='data:post.title'>
+      <h1 class='post-title entry-title' itemprop='name'>
+      <b:if cond='data:post.link or (data:post.url and data:blog.url != data:post.url)'>
+        <a expr:href='data:post.link ? data:post.link : data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+      </h1>
+    </b:if>
+  <div class='post-top'><div class='post-margin'><i class='fa fa-edit'/>Vnit Tech</div> <i class='fa fa-calendar'/> <data:post.timestamp/> - <data:post.dateHeader/> </div>
+ <b:if cond='data:blog.url != &quot;https://leminhut.blogspot.com/2018/07/super-fast-load-template-v2.html&quot;'>
+<center><div id='npc-ga'>
+        <ul>
+
+
+        </ul>
+    </div>
+   </center>
+</b:if>
+    </b:if>
+
+    <div class='post-header'>
+    <div class='post-header-line-1'/>
+
+    </div>
+
+    <!-- Then use the post body as the schema.org description, for good G+/FB snippeting. -->
+   <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' expr:itemprop='(data:blog.metaDescription ? &quot;&quot; : &quot;description &quot;) + &quot;articleBody&quot;'>
+     
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<p><data:post.body/></p>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<data:post.body/>
+<b:else/>
+
+<b:if cond='data:post.firstImageUrl'>
+<a expr:href='data:post.url' expr:title='data:post.title'><div class='bukshan'><div class='invert-shade ico-shade'><h4><b:if cond='data:post.labels'>
+<b:loop values='data:post.labels' var='label'><data:label.name/><b:if cond='data:label.isLast != &quot;true&quot;'>, </b:if></b:loop>
+  </b:if></h4>
+</div><img expr:src='data:post.firstImageUrl'/>
+</div>
+</a><b:else/>
+<a expr:href='data:post.url' expr:title='data:post.title'><div class='bukshan'><img src='http://1.bp.blogspot.com/-Nit_LiUtMHE/VflsSxNxENI/AAAAAAAADiM/CuVVm4SVl8E/s320/No-image-bt9.jpg'/></div>
+</a>
+</b:if> 
+<b:if cond='data:post.labels'>
+<b:loop values='data:post.labels' var='label'>
+<b:if cond='data:label.name == &quot;Premium&quot;'>
+ <div class='ribbon-vip'><span>Premium</span></div>
+  </b:if>
+</b:loop></b:if>         
+
+<b:if cond='data:post.title'>
+<h2 class='post-title entry-title' itemprop='name headline'>
+<b:if cond='data:post.link'>
+<a expr:href='data:post.link'><data:post.title/></a>  
+<b:else/>
+<b:if cond='data:post.url'>
+<b:if cond='data:blog.url != data:post.url'>
+<a expr:href='data:post.url'><data:post.title/></a>
+<b:else/>
+<data:post.title/>
+</b:if>
+<b:else/>
+<data:post.title/>
+</b:if>
+</b:if>
+  </h2>
+</b:if>
+
+
+<b:if cond='data:blog.pageType != &quot;index&quot;'>
+<div expr:id='&quot;summary&quot; + data:post.id'>
+<div itemprop='description articleBody'><data:post.body/>
+</div></div>
+<script type='text/javascript'>bintiz(&quot;summary<data:post.id/>&quot;,&quot;<data:post.title/>&quot;,&quot;<data:post.url/>&quot;,&quot;&quot;);</script></b:if>
+</b:if>
+</b:if>
+
+      <div style='clear: both;'/> <!-- clear for photos floats -->
+    </div>
+
+    <b:if cond='data:post.hasJumpLink'>
+      <div class='jump-link'>
+        <a expr:href='data:post.url + &quot;#more&quot;' expr:title='data:post.title'><data:post.jumpText/></a>
+      </div>
+    </b:if>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+    <div class='post-footer'>
+      <div class='keywords'><b>Tags:</b><b:if cond='data:post.labels'>
+                <b:loop values='data:post.labels' var='label'>
+              <a expr:href='data:label.url + &quot;?max-results=9&amp;&quot;' expr:title='data:label.name' rel='tag'><data:label.name/></a>
+                    <b:if cond='data:label.isLast != &quot;true&quot;'> </b:if>
+                </b:loop>
+  </b:if></div>
+    <div class='post-footer-line post-footer-line-1'>
+ <center><div class='share-info'>Blog Là Nơi Lưu trữ cũng Như chia sẻ lại cho những bạn chưa biết , Nội Dung Trên Blog Điều Do mình Tự viết , nếu bạn nào có ý định xuất bản lại nội dung trên blog của mình thì vui lòng gi rõ nguồn giúp mình nhé thank you !</div></center>
+<center><a href='https://g.co/kgs/kA7wbp' target='_blank'><img alt='Đánh Giá Website Vnit Tech' src='https://1.bp.blogspot.com/-DUJ1HRMa_-M/XX0RVBNHSAI/AAAAAAAAQCQ/o3x_7nqT7X4HgTNiUxvF1JkQFL9bFax8wCLcBGAsYHQ/s1600/1568477468301.png'/></a></center>
+      </div>
+
+      <div class='post-footer-line post-footer-line-2'>
+
+      <center>
+    <div id='npc-ga'>
+        <ul>
+   <li><div class='ga-img'><a href='https://hacklike.mobi/' rel='dofollow' target='_blank'>
+<img alt='Hack Like , Auto Like , Tăng Like Facebook - Hacklike.mobi' src='https://i.imgur.com/rUEaId6.png' title='Hack Like , Auto Like , Tăng Like Facebook - Hacklike.mobi'/>
+</a></div></li>
+            <li class='ga-info'>
+                <h2><a href='https://hacklike.mobi/hack-like' rel='dofollow' target='_blank'>Hack Like , Auto Like , Tăng Like Facebook - An toàn , Chất Lượng</a></h2>
+                <div class='ga-tool'><a class='ga-question'/><a class='ga-exit' onclick='document.getElementById(&apos;npc-ga&apos;).style.display = &apos;none&apos;'/></div>
+                <p><a href='https://hacklike.mobi/' rel='dofollow' target='_blank'>Hack Like , Auto Like , Tăng Like Facebook - Hacklike.mobi</a></p>
+                <div class='ga-link'><a href='https://hacklike.mobi/hack-like' rel='dofollow' target='_blank'>Hack Like , Auto Like Fb</a></div>
+                <div class='ga-more'><a href='https://hacklike.mobi/' rel='dofollow' target='_blank'>Truy Cập Ngay</a></div>
+            </li>
+        </ul>
+    </div>
+        </center>
+
+      </div>
+
+      <div class='post-footer-line post-footer-line-3'>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+
+<div id='related-article'>
+<b:loop values='data:post.labels' var='label'>
+<script expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=json-in-script&amp;callback=related_results_labels&quot;' type='text/javascript'/>
+</b:loop>
+<script type='text/javascript'>
+var maxresults=3;
+var size = 640;
+removeRelatedDuplicates();
+printRelatedLabels(&#39;<data:post.url/>&#39;);</script>
+</div>
+<div class='clear'/> 
+
+
+</b:if>
+    </div>
+
+      <b:if cond='data:post.authorAboutMe'>
+        <div class='author-profile' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+          <b:if cond='data:post.authorPhoto.url'>
+            <img expr:src='data:post.authorPhoto.url' itemprop='image' width='50px'/>
+          </b:if>
+          <div>
+            <a class='g-profile' expr:href='data:post.authorProfileUrl' itemprop='url' rel='author' title='author profile'>
+              <span itemprop='name'><data:post.author/></span>
+            </a>
+          </div>
+          <span itemprop='description'><data:post.authorAboutMe/></span>
+        </div>
+      </b:if>
+
+    </div>
+</b:if>
+
+  </div>
+
+<b:if cond='data:view.isSingleItem'>
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+  <br/>
+
+</b:if>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+</b:if>
+</b:if>
+
+
+</b:includable>
+              <b:includable id='postQuickEdit' var='post'/>
+              <b:includable id='shareButtons' var='post'>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if><b:if cond='data:top.showPlusOne'><div class='goog-inline-block google-plus-share-container'><data:post.googlePlusShareTag/></div></b:if>
+</b:includable>
+              <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <data:navMessage/>
+    </div>
+    <div class='status-msg-border'>
+      <div class='status-msg-bg'>
+        <div class='status-msg-hidden'><data:navMessage/></div>
+      </div>
+    </div>
+  </div>
+  <div style='clear: both;'/>
+  </b:if>
+</b:includable>
+              <b:includable id='threaded-comment-form' var='post'/>
+              <b:includable id='threaded_comment_js' var='post'/>
+              <b:includable id='threaded_comments' var='post'/>
+            </b:widget>
+          </b:section>
+
+        <div style='clear: both'/>
+        </div> </div>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+      <div class='sidebar-wrapper top' itemscope='itemscope' itemtype='http://schema.org/WPSideBar'>
+
+        <b:section class='sidebar' id='sidebar' showaddelement='yes'>
+          <b:widget id='PopularPosts3' locked='false' title='' type='PopularPosts' version='1'>
+            <b:widget-settings>
+              <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
+              <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+              <b:widget-setting name='showSnippets'>false</b:widget-setting>
+              <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <div class='title-popular3'><i class='fa fa-line-chart'/> HOT TRENDING <div class='title-hot'>#Blogchart</div></div> 
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+
+      <li>
+        <b:if cond='!data:showThumbnails'>
+          <b:if cond='!data:showSnippets'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
+            <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
+              <div class='item-thumbnail'>
+                <a expr:href='data:post.href'>
+                 <b:with value='data:post.featuredImage.isResizable                                  ? resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)                                  : data:post.thumbnail' var='image'>
+                    <img border='0' expr:alt='data:post.title' expr:src='data:image'/>
+                  </b:with>
+                </a>
+              </div>
+            </b:if>
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <b:if cond='data:showSnippets'>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </b:if>
+          </div>
+          <div style='clear: both;'/>
+        </b:if>
+      </li>
+
+      </b:loop>
+    </ul>
+<a id='pp-more'>Xem thêm</a>
+  </div>
+</b:includable>
+          </b:widget>
+          <b:widget id='HTML1' locked='false' title='THAM GIA NGAY' type='HTML' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&lt;style&gt;
+.colxxx{width:100%;position:relative;overflow:hidden;margin-bottom:-10px}
+.morezz {position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(180deg,rgba(2,9,23,.25) 0,#1b1b1b 90%);} 
+.xemzz{display: inline-block;color: #fff;font: 16px Roboto;font-weight:500;position: absolute;background: transparent;bottom: 0;
+width: 100%;left: 0; padding: 10px 0;opacity:1; visibility:visible}
+&lt;/style&gt;
+&lt;div class=&#39;colxxx&#39;&gt;
+&lt;a href=&#39;https://www.facebook.com/groups/2142377209324098/&#39;&gt;
+                &lt;img alt=&#39;Tham Gia&#39; src=&#39;https://1.bp.blogspot.com/-kAs4HhCK-eo/XXT7nJnBJDI/AAAAAAAAQBg/nUhbYhAauSQuT6ylgZZJeLxxVsdyHeJGACLcBGAs/s1600/70907883_377033079657688_4919693224328560640_n.png&#39; style=&#39;float:left;height:130px; width:100%&#39;/&gt;
+                &lt;div class=&#39;morezz&#39;&gt;&lt;div class=&#39;xemzz&#39;&gt;Web5ngay.com - Học Kinh Doanh Online&lt;/div&gt;
+                &lt;/div&gt;&lt;/a&gt;&lt;/div&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+<b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+          </b:widget>
+          <b:widget id='BlogArchive1' locked='false' title='' type='BlogArchive' visible='false'>
+            <b:widget-settings>
+              <b:widget-setting name='showStyle'>FLAT</b:widget-setting>
+              <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
+              <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
+              <b:widget-setting name='monthPattern'>MMMM yyyy</b:widget-setting>
+              <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
+              <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
+              <b:widget-setting name='chronological'>false</b:widget-setting>
+              <b:widget-setting name='showPosts'>true</b:widget-setting>
+              <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main' var='this'>
+  <b:include name='widget-title'/>
+  <b:include name='content'/>
+</b:includable>
+            <b:includable id='content'>
+  <div class='widget-content'>
+    <div id='ArchiveList'>
+      <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
+        <b:include cond='data:this.style == &quot;HIERARCHY&quot;' name='hierarchy'/>
+        <b:include cond='data:this.style in {&quot;FLAT&quot;, &quot;MENU&quot;}' name='flat'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+            <b:includable id='flat'>
+  <ul class='flat'>
+    <b:loop values='data:data' var='i'>
+      <li class='archivedate'>
+        <a expr:href='data:i.url'>
+          <data:i.name/><span class='post-count'><data:i.post-count/></span>
+        </a>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+            <b:includable id='hierarchy'>
+  <b:include data='data' name='interval'/>
+</b:includable>
+            <b:includable id='interval' var='intervals'>
+  <ul class='hierarchy'>
+    <b:loop values='data:intervals' var='interval'>
+      <li class='archivedate'>
+        <div class='hierarchy-title'>
+          <a class='post-count-link' expr:href='data:interval.url'>
+            <data:interval.name/>
+            <span class='post-count'><data:interval.post-count/></span>
+          </a>
+        </div>
+        <div class='hierarchy-content'>
+          <b:include cond='data:interval.data' data='interval.data' name='interval'/>
+          <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
+        </div>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+            <b:includable id='posts' var='posts'>
+  <ul class='posts hierarchy'>
+    <b:loop values='data:posts' var='post'>
+      <li>
+        <a expr:href='data:post.url'><data:post.title/></a>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+          </b:widget>
+          <b:widget id='Label1' locked='false' title='Nhãn' type='Label' version='2' visible='false'>
+            <b:widget-settings>
+              <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+              <b:widget-setting name='display'>LIST</b:widget-setting>
+              <b:widget-setting name='selectedLabelsList'/>
+              <b:widget-setting name='showType'>ALL</b:widget-setting>
+              <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main' var='this'>
+  <b:include name='widget-title'/>
+  <b:include name='content'/>
+</b:includable>
+            <b:includable id='cloud'>
+  <b:loop values='data:labels' var='label'>
+    <span class='label-size'>
+      <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
+      <a class='label-name' expr:href='data:label.url + &quot;?&amp;max-results=15&quot;'>
+        <data:label.name/>
+        <b:if cond='data:this.showFreqNumbers'>
+          <span class='label-count'><data:label.count/></span>
+        </b:if>
+      </a>
+    </span>
+  </b:loop>
+</b:includable>
+            <b:includable id='content'>
+  <div class='widget-content'>
+    <b:class expr:name='data:this.display + &quot;-label-widget-content&quot;'/>
+    <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
+    <b:include cond='data:this.display == &quot;cloud&quot;' name='cloud'/>
+  </div>
+</b:includable>
+            <b:includable id='list'>
+  <ul>
+    <b:loop values='data:labels' var='label'>
+      <li>
+        <a class='label-name' expr:href='data:label.url + &quot;?&amp;max-results=15&quot;'>
+          <data:label.name/>
+          <b:if cond='data:this.showFreqNumbers'>
+            <span class='label-count'><data:label.count/></span>
+          </b:if>
+        </a>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+          </b:widget>
+          <b:widget id='ReportAbuse1' locked='false' title='' type='ReportAbuse' visible='false'>
+            <b:includable id='main'>
+  <b:include name='reportAbuse'/>
+</b:includable>
+          </b:widget>
+          <b:widget id='Profile1' locked='false' title='Người đóng góp cho blog' type='Profile' visible='false'>
+            <b:widget-settings>
+              <b:widget-setting name='showaboutme'>true</b:widget-setting>
+              <b:widget-setting name='showlocation'>false</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main' var='this'>
+  <b:include name='widget-title'/>
+  <b:include name='content'/>
+</b:includable>
+            <b:includable id='authorProfileImage'>
+  <img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:authorPhoto.height' expr:src='data:authorPhoto.image' expr:width='data:authorPhoto.width'/>
+</b:includable>
+            <b:includable id='content'>
+  <b:if cond='data:team'>
+    <div class='widget-content team'>
+      <b:include name='teamProfile'/>
+    </div>
+  <b:else/>
+    <div class='widget-content individual'>
+      <b:include name='userProfile'/>
+    </div>
+  </b:if>
+</b:includable>
+            <b:includable id='defaultProfileImage'>
+  <div class='default-avatar'/>
+</b:includable>
+            <b:includable id='profileImage'>
+  <b:if cond='data:authorPhoto.image'>
+    <b:include name='authorProfileImage'/>
+  <b:else/>
+    <b:include name='defaultProfileImage'/>
+  </b:if>
+</b:includable>
+            <b:includable id='teamProfile'>
+  <ul>
+    <b:loop values='data:authors' var='author'>
+      <li>
+        <div class='team-member'>
+          <b:include data='author' name='teamProfileLink'/>
+        </div>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+            <b:includable id='teamProfileLink'>
+  <a class='profile-link g-profile' expr:href='data:userUrl' rel='nofollow'>
+    <b:include name='profileImage'/>
+    <span class='profile-name'><data:display-name/></span>
+  </a>
+</b:includable>
+            <b:includable id='userGoogleProfile'>
+  <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
+</b:includable>
+            <b:includable id='userLocation'>
+  <dd class='profile-data location'><data:location/></dd>
+</b:includable>
+            <b:includable id='userProfile'>
+  <b:include name='userProfileImage'/>
+  <b:include name='userProfileInfo'/>
+</b:includable>
+            <b:includable id='userProfileData'>
+  <dt class='profile-data'>
+    <b:include name='userProfileLink'/>
+    <b:include cond='data:hasgoogleprofile' name='userGoogleProfile'/>
+  </dt>
+</b:includable>
+            <b:includable id='userProfileImage'>
+  <a expr:href='data:userUrl' rel='nofollow'>
+    <b:include name='profileImage'/>
+  </a>
+</b:includable>
+            <b:includable id='userProfileInfo'>
+  <div class='profile-info'>
+    <dl class='profile-datablock'>
+      <b:class cond='data:showlocation and data:location != &quot;&quot;' name='has-location'/>
+
+      <b:include name='userProfileData'/>
+      <b:include cond='data:showlocation and data:location != &quot;&quot;' name='userLocation'/>
+      <b:include cond='data:aboutme != &quot;&quot;' name='userProfileText'/>
+    </dl>
+    <b:include name='viewProfileLink'/>
+  </div>
+</b:includable>
+            <b:includable id='userProfileLink'>
+  <a class='profile-link g-profile' expr:href='data:userUrl' rel='author nofollow'>
+    <data:displayname/>
+  </a>
+</b:includable>
+            <b:includable id='userProfileText'>
+  <dd class='profile-textblock'>
+    <data:aboutme/>
+  </dd>
+</b:includable>
+            <b:includable id='viewProfileLink'>
+  <a class='profile-link' expr:href='data:userUrl' rel='author nofollow'>
+    <data:messages.viewMyCompleteProfile/>
+  </a>
+</b:includable>
+          </b:widget>
+          <b:widget id='ContactForm1' locked='false' title='Biểu mẫu liên hệ' type='ContactForm' visible='false'>
+            <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <b:include name='content'/>
+</b:includable>
+            <b:includable id='content'>
+  <div class='contact-form-widget'>
+    <div class='form'>
+      <form name='contact-form'>
+        <p/>
+        <data:contactFormNameMsg/>
+        <br/>
+        <input class='contact-form-name' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' name='name' size='30' type='text' value=''/>
+        <p/>
+        <data:contactFormEmailMsg/> <span style='font-weight: bolder;'>*</span>
+        <br/>
+        <input class='contact-form-email' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' name='email' size='30' type='text' value=''/>
+        <p/>
+        <data:contactFormMessageMsg/> <span style='font-weight: bolder;'>*</span>
+        <br/>
+        <textarea class='contact-form-email-message' cols='25' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' name='email-message' rows='5'/>
+        <p/>
+        <input class='contact-form-button contact-form-button-submit' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg' type='button'/>
+        <p/>
+        <div style='text-align: center; max-width: 222px; width: 100%'>
+          <p class='contact-form-error-message' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
+          <p class='contact-form-success-message' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
+        </div>
+      </form>
+    </div>
+  </div>
+</b:includable>
+          </b:widget>
+          <b:widget id='PopularPosts2' locked='false' title='' type='PopularPosts' version='2' visible='false'>
+            <b:widget-settings>
+              <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
+              <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+              <b:widget-setting name='showSnippets'>false</b:widget-setting>
+              <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main' var='this'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <b:include name='snippetedPosts'/>
+  </div>
+</b:includable>
+            <b:includable id='blogThisShare'>
+  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+            <b:includable id='bylineByName' var='byline'>
+  <b:switch var='data:byline.name'>
+  <b:case value='share'/>
+    <b:include cond='data:post.shareUrl' name='postShareButtons'/>
+  <b:case value='comments'/>
+    <b:include cond='data:post.allowComments' name='postCommentsLink'/>
+  <b:case value='location'/>
+    <b:include cond='data:post.location' name='postLocation'/>
+  <b:case value='timestamp'/>
+    <b:include cond='not data:view.isPage' name='postTimestamp'/>
+  <b:case value='author'/>
+    <b:include name='postAuthor'/>
+  <b:case value='labels'/>
+    <b:include cond='data:post.labels' name='postLabels'/>
+  <b:case value='icons'/>
+    <b:include cond='data:post.emailPostUrl' name='emailPostIcon'/>
+  <b:case value='reactions'/>
+    <b:include cond='data:post.reactionsUrl' name='postReactions'/>
+  </b:switch>
+</b:includable>
+            <b:includable id='bylineRegion' var='regionItems'>
+  <b:loop values='data:regionItems' var='byline'>
+    <b:include data='byline' name='bylineByName'/>
+  </b:loop>
+</b:includable>
+            <b:includable id='commentsLink'>
+  <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:if cond='data:post.numberOfComments &gt; 0'>
+      <b:message name='messages.numberOfComments'>
+        <b:param expr:value='data:post.numberOfComments' name='numComments'/>
+      </b:message>
+    <b:else/>
+      <data:messages.postAComment/>
+    </b:if>
+  </a>
+</b:includable>
+            <b:includable id='commentsLinkIframe'>
+  <span class='cmt_count_iframe_holder' expr:data-count='data:post.numberOfComments' expr:data-onclick='data:post.commentsUrlOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.url.canonical.http'>
+  </span>
+</b:includable>
+            <b:includable id='emailPostIcon'>
+  <span class='byline post-icons'>
+    <!-- email post links -->
+    <span class='item-action'>
+      <a expr:href='data:post.emailPostUrl' expr:title='data:messages.emailPost'>
+        <b:include data='{ iconClass: &quot;touch-icon sharing-icon&quot; }' name='emailIcon'/>
+      </a>
+    </span>
+  </span>
+</b:includable>
+            <b:includable id='facebookShare'>
+  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+            <b:includable id='footerBylines'>
+  <b:if cond='data:widgets.Blog.first.footerBylines'>
+    <b:loop index='i' values='data:widgets.Blog.first.footerBylines' var='region'>
+      <b:if cond='not data:region.items.empty'>
+        <div expr:class='&quot;post-footer-line post-footer-line-&quot; + (data:i + 1)'>
+          <b:with value='&quot;footer-&quot; + (data:i + 1)' var='regionName'>
+            <b:include data='region.items' name='bylineRegion'/>
+          </b:with>
+        </div>
+      </b:if>
+    </b:loop>
+  </b:if>
+</b:includable>
+            <b:includable id='googlePlusShare'>
+  <div class='goog-inline-block google-plus-share-container'>
+    <g:plusone annotation='inline' expr:href='data:originalUrl.canonical.http' size='medium' source='blogger:blog:plusone'/>
+  </div>
+</b:includable>
+            <b:includable id='headerByline'>
+  <b:if cond='data:widgets.Blog.first.headerByline'>
+    <div class='post-header'>
+      <div class='post-header-line-1'>
+        <b:with value='&quot;header-1&quot;' var='regionName'>
+          <b:include data='data:widgets.Blog.first.headerByline.items' name='bylineRegion'/>
+        </b:with>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+            <b:includable id='linkShare'>
+  <b:with value='&quot;window.prompt(\&quot;Copy to clipboard: Ctrl+C, Enter\&quot;, \&quot;&quot; + data:originalUrl + &quot;\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+            <b:includable id='otherSharingButton'>
+  <span class='sharing-platform-button sharing-element-other' expr:aria-label='data:messages.shareToOtherApps.escaped' expr:data-url='data:originalUrl' expr:title='data:messages.shareToOtherApps.escaped' role='menuitem' tabindex='-1'>
+    <b:with value='{key: &quot;sharingOther&quot;}' var='platform'>
+      <b:include name='sharingPlatformIcon'/>
+    </b:with>
+    <span class='platform-sharing-text'><data:messages.shareOtherApps.escaped/></span>
+  </span>
+</b:includable>
+            <b:includable id='platformShare'>
+  <a expr:class='&quot;goog-inline-block sharing-&quot; + data:platform.key' expr:data-url='data:originalUrl' expr:href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:onclick='data:onclick ? data:onclick : &quot;&quot;' expr:title='data:platform.shareMessage' target='_blank'>
+    <span class='share-button-link-text'>
+      <data:platform.shareMessage/>
+    </span>
+  </a>
+</b:includable>
+            <b:includable id='postAuthor'>
+  <span class='byline post-author vcard'>
+    <span class='post-author-label'>
+      <data:byline.label/>
+    </span>
+    <span class='fn'>
+      <b:if cond='data:post.author.profileUrl'>
+        <meta expr:content='data:post.author.profileUrl'/>
+        <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+          <span><data:post.author.name/></span>
+        </a>
+      <b:else/>
+        <span><data:post.author.name/></span>
+      </b:if>
+    </span>
+  </span>
+</b:includable>
+            <b:includable id='postCommentsLink'>
+  <span class='byline post-comment-link container'>
+    <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
+    <b:include cond='data:post.commentSource == 1' name='commentsLinkIframe'/>
+  </span>
+</b:includable>
+            <b:includable id='postJumpLink' var='post'>
+  <div class='jump-link flat-button'>
+    <a expr:href='data:post.url fragment &quot;more&quot;' expr:title='data:post.title'>
+      <b:eval expr='data:blog.jumpLinkMessage'/>
+    </a>
+  </div>
+</b:includable>
+            <b:includable id='postLabels'>
+  <span class='byline post-labels'>
+    <span class='byline-label'><data:byline.label/></span>
+    <b:loop index='i' values='data:post.labels' var='label'>
+      <a expr:href='data:label.url' rel='tag'>
+        <data:label.name/>
+      </a>
+    </b:loop>
+  </span>
+</b:includable>
+            <b:includable id='postLocation'>
+  <span class='byline post-location'>
+    <data:byline.label/>
+    <a expr:href='data:post.location.mapsUrl' target='_blank'><data:post.location.name/></a>
+  </span>
+</b:includable>
+            <b:includable id='postReactions'>
+  <span class='byline reactions'>
+    <span class='reactions-label'>
+      <data:byline.label/>
+    </span>
+    <iframe allowtransparency='true' class='reactions-iframe' expr:src='data:post.reactionsUrl' frameborder='0' name='reactions' scrolling='no'/>
+  </span>
+</b:includable>
+            <b:includable id='postShareButtons'>
+  <div class='byline post-share-buttons goog-inline-block'>
+    <b:with value='data:sharingId ?: ((data:widget.instanceId ?: &quot;sharing&quot;) + &quot;-&quot; + (data:regionName ?: &quot;byline&quot;) + &quot;-&quot; + data:post.id)' var='sharingId'>
+      <!-- Note: 'sharingButtons' includable is from the default Sharing widget markup. -->
+      <b:include data='{                                                sharingId: data:sharingId,                                                originalUrl: data:post.url,                                                platforms: data:this.sharing.platforms,                                                shareUrl: data:post.shareUrl,                                                shareTitle: data:post.title,                                              }' name='sharingButtons'/>
+    </b:with>
+  </div>
+</b:includable>
+            <b:includable id='postTimestamp'>
+  <span class='byline post-timestamp'>
+    <data:byline.label/>
+    <b:if cond='data:post.url'>
+      <meta expr:content='data:post.url.canonical'/>
+      <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'>
+        <time class='published' expr:datetime='data:post.date.iso8601' expr:title='data:post.date.iso8601'>
+          <data:post.date/>
+        </time>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+            <b:includable id='sharingButton'>
+  <span expr:aria-label='data:platform.shareMessage' expr:class='&quot;sharing-platform-button sharing-element-&quot; + data:platform.key' expr:data-href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:data-url='data:originalUrl' expr:title='data:platform.shareMessage' role='menuitem' tabindex='-1'>
+    <b:include name='sharingPlatformIcon'/>
+    <span class='platform-sharing-text'><data:platform.name/></span>
+  </span>
+</b:includable>
+            <b:includable id='sharingButtonContent'>
+  <div class='flat-icon-button ripple'>
+    <b:include name='shareIcon'/>
+  </div>
+</b:includable>
+            <b:includable id='sharingButtons'>
+  <div class='sharing' expr:aria-owns='&quot;sharing-popup-&quot; + data:sharingId' expr:data-title='data:shareTitle'>
+    <button class='sharing-button touch-icon-button' expr:aria-controls='&quot;sharing-popup-&quot; + data:sharingId' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-button-&quot; + data:sharingId' role='button'>
+      <b:include name='sharingButtonContent'/>
+    </button>
+    <b:include name='sharingButtonsMenu'/>
+  </div>
+</b:includable>
+            <b:includable id='sharingButtonsMenu'>
+  <div class='share-buttons-container'>
+    <ul aria-hidden='true' class='share-buttons hidden' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-popup-&quot; + data:sharingId' role='menu'>
+      <b:loop values='(data:platforms ?: data:blog.sharing.platforms) filter (p =&gt; p.key not in {&quot;blogThis&quot;})' var='platform'>
+        <li>
+          <b:include name='sharingButton'/>
+        </li>
+      </b:loop>
+      <li aria-hidden='true' class='hidden'>
+        <b:include name='otherSharingButton'/>
+      </li>
+    </ul>
+  </div>
+</b:includable>
+            <b:includable id='sharingPlatformIcon'>
+  <b:include data='{ iconClass: (&quot;touch-icon sharing-&quot; + data:platform.key) }' expr:name='data:platform.key + &quot;Icon&quot;'/>
+</b:includable>
+            <b:includable id='snippetedPostByline'>
+  <b:with value='(data:widgets first (w =&gt; w.type == &quot;Blog&quot;)).allBylineItems' var='blogBylines'>
+    <div class='item-byline'>
+      <b:with value='data:blogBylines first (i =&gt; i.name == &quot;author&quot;)' var='byline'>
+        <b:include cond='data:byline and data:this.postDisplay.showAuthor' data='post' name='postAuthor'/>
+      </b:with>
+      <b:with value='data:blogBylines first (i =&gt; i.name == &quot;timestamp&quot;)' var='byline'>
+        <b:include cond='data:byline and data:this.postDisplay.showDate' data='post' name='postTimestamp'/>
+      </b:with>
+    </div>
+  </b:with>
+</b:includable>
+            <b:includable id='snippetedPostContent'>
+  <div class='post-content'>
+    <b:include cond='data:this.postDisplay.showTitle' name='snippetedPostTitle'/>
+    <b:include cond='data:this.postDisplay.showDate or data:this.postDisplay.showAuthor' name='snippetedPostByline'/>
+    <b:include cond='data:this.postDisplay.showSnippet' data='post' name='postSnippet'/>
+    <b:include cond='data:this.postDisplay.showFeaturedImage and data:post.featuredImage' name='snippetedPostThumbnail'/>
+  </div>
+</b:includable>
+            <b:includable id='snippetedPostThumbnail'>
+  <div class='item-thumbnail'>
+    <a expr:href='data:post.url'>
+      <b:include data='{                         image: data:post.featuredImage,                         imageSizes: [72, 144],                         imageRatio: &quot;1:1&quot;,                         sourceSizes: &quot;72px&quot;                        }' name='responsiveImage'/>
+    </a>
+  </div>
+</b:includable>
+            <b:includable id='snippetedPostTitle'>
+  <b:if cond='data:post.title != &quot;&quot;'>
+    <h3 class='post-title'><a expr:href='data:post.url'><data:post.title/></a></h3>
+  </b:if>
+</b:includable>
+            <b:includable id='snippetedPosts'>
+  <div role='feed'>
+    <!-- Don't render the post that we're currently already looking at. -->
+    <b:loop values='data:posts filter (p =&gt; p.id != data:view.postId)' var='post'>
+      <article class='post' role='article'>
+        <b:include name='snippetedPostContent'/>
+      </article>
+    </b:loop>
+  </div>
+</b:includable>
+          </b:widget>
+        </b:section>
+      </div>
+  </b:if>
+      <div class='clear'/>
+</div>
+<style>#PopularPosts4{display:none}
+#PopularPosts4 ul{padding:0}
+#PopularPosts4 ul li:first-child{width:100%;max-height:100%}
+#PopularPosts4 ul li{position:relative;padding:0;width:100%;margin-bottom:5px;border:none}
+#PopularPosts4 .item-thumbnail{margin:0;width:100%;line-height:0}
+#PopularPosts4 ul li img{width:100%;height:170px;padding:0;transition:1s ease}
+#PopularPosts4 .item-title{color:#fff;background:linear-gradient(180deg,rgba(2,9,23,.25) 0,#1b1b1b 90%);text-decoration:none;position:absolute;text-align:center;left:0;right:0;bottom:0%;line-height:1.3;height:170px;transition:background .4s ease}
+#PopularPosts4 .item-title a{color:#fff;font-size:18px;font-weight:300;position:absolute;bottom:0;left:0;padding:10px;text-align:left}
+#PopularPosts4 .item-snippet{display:none}
+#PopularPosts4 .popular-posts ul li .item-title:before{position:absolute;top:0;left:0;margin:10px;font-size:20px;font-weight:300}
+#PopularPosts4 .popular-posts ul li:first-child + li + li .item-title:before{content:&quot;#3&quot;}
+#PopularPosts4 .popular-posts ul li:first-child + li .item-title:before{content:&quot;#2&quot;}
+#PopularPosts4 .popular-posts ul li:first-child .item-title:before{content:&quot;#1&quot;;background:white;padding:5px 10px;color:#666}
+</style>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<style>
+#trending{background:#f2f2f2;margin-top:10px}@media (max-width:1160px) and (min-width:967px){#PopularPosts2 ul li:nth-of-type(6){display:none}}@media (max-width:385px){#PopularPosts2 ul li{width:150px!important;margin:5px!important}#PopularPosts2 img{width:150px!important;height:90px!important}}#PopularPosts2,#PopularPosts2 h2{text-align:center;padding:5px 0 15px;background:#f2f2f2}#PopularPosts2 h2{text-transform:uppercase;font-size:20px;letter-spacing:.04rem;margin:0 0 10px}#PopularPosts2 h2 span{border-bottom:2px solid #111}#PopularPosts2 ul{list-style-type:none;background:#f2f2f2;margin:0;padding:0}#PopularPosts2 li{padding:5px!important}#PopularPosts2 li a{font-size:13px}#PopularPosts2 li a:hover{color:#07ACEC!important;border:none}#PopularPosts2 ul li:hover .item-title a{color:#07ACEC!important}#PopularPosts2 ul li{margin:5px;box-shadow:0 3px 5px 0 rgba(0,0,0,.17);width:170px;display:inline-block;border-radius:3px;background:#fff;padding:0 3px 3px}#PopularPosts2 .item-thumbnail{margin:0}#PopularPosts2 img{border-radius:4px;width:170px;height:100px}#PopularPosts2 .item-title{height:38px;text-align:center;text-overflow:ellipsis;-webkit-line-clamp:2;color:#000;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;padding-top:5px}#PopularPosts2 ul li:before{display:none}
+</style>
+<b:section class='sidebar1' id='Sidebar-pop' showaddelement='yes'/>
+</b:if>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+  
+</b:if>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+  
+
+<section id='services'>
+
+<div class='container'>
+
+<div class='bool'>
+<h4>Dịch Vụ Chúng Tôi</h4>
+  <span class='has-underline'/>
+</div>
+
+<div class='beeded'>
+
+<div class='cand'>
+<i class='fa fa-search'/>
+<b>Tối Ưu Seo Onpage</b>
+  <hr/>
+<p>Chúng Tôi nhận tối ưu Onpage website chuẩn seo , giúp google hiểu về website bạn , Từ đó giúp website bạn chất lượng hơn và được google đánh giá cao trong bảng Xếp hạng Google Tìm Kiếm...</p>
+  </div>
+
+<div class='cand'>
+<i class='fa fa-link'/>
+<b>Đặt Backlink Chất Lượng</b>
+  <hr/>
+<p>Chúng Tôi nhận đi link, đặt backlink chất lượng từ những website có độ uy tín cao giúp website bạn Gia tăng thứ hạng google nhanh chống và giữ vững được top lâu hơn trong kết quả tìm kiếm...</p>
+</div>
+
+<div class='cand'>
+<i class='fa fa-cogs'/>
+<b>Tối Ưu Và Fix Lỗi</b>
+  <hr/>
+<p>
+Chúng tôi nhận tối ưu tốc độ website , Tư Vấn Miến Phí . Hỗ Trợ cài đặt tùy chỉnh lại giao diện website theo yêu cầu Của khách hàng , Hỗ trợ Fix những lỗi , sự cố khi website bạn gặp phải ,....</p>
+</div>
+
+<div class='cand'>
+<i class='fa fa-map-marker'/>
+<b>Verify And Seo Map</b>
+  <hr/>
+<p>Chúng tôi nhận xác minh google doanh nghiệp , tối ưu hóa nội dung và seo google doanh nghiệp lên top google tìm kiếm trong thời gian nhanh nhất từ các vị trí khác nhau,...</p>
+</div>
+</div>
+
+  </div><center><a class='button3x' href='/p/thong-tin-lien-he.html'>Trải Nghiệm Dịch Vụ</a></center>
+</section>
+<div class='clear'/>
+</b:if>
+    </div><!-- outer-wrapper -->
+  <div class='clear'/>
+<div class='titlefoot' id='footer-wrapper'><div class='container' id='tool'>
+  <b:section class='left' id='left' preferred='yes'>
+    <b:widget id='HTML4' locked='false' title='Về Chúng Tôi' type='HTML' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'>mình rất vui vì các bạn đã đến thăm website : Vnit Tech, hiện tại website đang trên đà phát triển mình rất mong và hy vọng sẽ có nhiều đóng góp cũng như ý kiến phản hồi từ phía đọc giả của trang web mình , để mình ngày càng hoàn thiện hơn trên nền tảng blog , cũng như chia sẻ đến các bạn.
+Để phản hồi , báo lỗi , góp ý cũng như đóng góp bài viết , liên hệ dịch vụ các bạn có thể Gửi về địa chỉ email sau : &lt;b&gt;help@blogvnit.com&lt;/b&gt; &lt;br/&gt;</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+    </b:widget>
+    <b:widget id='Navbar1' locked='false' title='Thanh điều hướng' type='Navbar' version='2' visible='true'>
+      <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener(&#39;load&#39;,
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
       }
     }
-  })
-  //]]></script>
+  &lt;/script&gt;
+&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
+        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d4204156137751445880\x26blogName\x3dBlog+Vnit+-+D%E1%BB%8Bch+V%E1%BB%A5+Seo+,+Thi%E1%BA%BFt+K%E1%BA%BF+We...\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://www.blogvnit.com/search\x26blogLocale\x3dvi\x26v\x3d2\x26homepageUrl\x3dhttp://www.blogvnit.com/\x26vt\x3d-568032706167493638&#39;,
+              where: document.getElementById(&quot;navbar-iframe-container&quot;),
+              id: &quot;navbar-iframe&quot;
+          });
+        }
+      });
+    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+(function() {
+var script = document.createElement(&#39;script&#39;);
+script.type = &#39;text/javascript&#39;;
+script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
+var head = document.getElementsByTagName(&#39;head&#39;)[0];
+if (head) {
+head.appendChild(script);
+}})();
+&lt;/script&gt;
+</b:includable>
+    </b:widget>
+    <b:widget id='Navbar2' locked='false' title='Thanh điều hướng' type='Navbar' version='1'>
+      <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener(&#39;load&#39;,
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
+      }
+    }
+  &lt;/script&gt;
+&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
+        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d4204156137751445880\x26blogName\x3dBlog+Vnit+-+D%E1%BB%8Bch+V%E1%BB%A5+Seo+,+Thi%E1%BA%BFt+K%E1%BA%BF+We...\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://www.blogvnit.com/search\x26blogLocale\x3dvi\x26v\x3d2\x26homepageUrl\x3dhttp://www.blogvnit.com/\x26vt\x3d-568032706167493638&#39;,
+              where: document.getElementById(&quot;navbar-iframe-container&quot;),
+              id: &quot;navbar-iframe&quot;
+          });
+        }
+      });
+    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+(function() {
+var script = document.createElement(&#39;script&#39;);
+script.type = &#39;text/javascript&#39;;
+script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
+var head = document.getElementsByTagName(&#39;head&#39;)[0];
+if (head) {
+head.appendChild(script);
+}})();
+&lt;/script&gt;
+</b:includable>
+    </b:widget>
+    <b:widget id='Blog2' locked='false' title='Bài đăng trên Blog' type='Blog' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+        <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+        <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+        <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+        <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+        <b:widget-setting name='showAuthor'>false</b:widget-setting>
+        <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+        <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+        <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+        <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+        <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+        <b:widget-setting name='showLabels'>false</b:widget-setting>
+        <b:widget-setting name='showLocation'>false</b:widget-setting>
+        <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+        <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+        <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+        <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+        <b:widget-setting name='showReactions'>false</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main' var='this'>
+  <div class='blog-posts hfeed container'>
+    
+      <b:include data='post' name='postCommentsAndAd'/>
+    
+  </div>
+  <b:include cond='data:view.isMultipleItems' name='postPagination'/>
+  <b:include name='feedLinks'/>
+</b:includable>
+      <b:includable id='aboutPostAuthor'>
+  <div class='author-name'>
+    <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+      <span>
+        <data:post.author.name/>
+      </span>
+    </a>
+  </div>
+  <div>
+    <span class='author-desc'>
+      <data:post.author.aboutMe/>
+    </span>
+  </div>
+</b:includable>
+      <b:includable id='addComments'>
+  <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:message name='messages.postAComment'/>
+  </a>
+</b:includable>
+      <b:includable id='blogThisShare'>
+  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+      <b:includable id='bylineByName' var='byline'>
+  <b:switch var='data:byline.name'>
+  <b:case value='share'/>
+    <b:include cond='data:post.shareUrl' name='postShareButtons'/>
+  <b:case value='comments'/>
+    <b:include cond='data:post.allowComments' name='postCommentsLink'/>
+  <b:case value='location'/>
+    <b:include cond='data:post.location' name='postLocation'/>
+  <b:case value='timestamp'/>
+    <b:include cond='not data:view.isPage' name='postTimestamp'/>
+  <b:case value='author'/>
+    <b:include name='postAuthor'/>
+  <b:case value='labels'/>
+    <b:include cond='data:post.labels' name='postLabels'/>
+  <b:case value='icons'/>
+    <b:include cond='data:post.emailPostUrl' name='emailPostIcon'/>
+  <b:case value='reactions'/>
+    <b:include cond='data:post.reactionsUrl' name='postReactions'/>
+  </b:switch>
+</b:includable>
+      <b:includable id='bylineRegion' var='regionItems'>
+  <b:loop values='data:regionItems' var='byline'>
+    <b:include data='byline' name='bylineByName'/>
+  </b:loop>
+</b:includable>
+      <b:includable id='commentAuthorAvatar'>
+  <div class='avatar-image-container'>
+    <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
+  </div>
+</b:includable>
+      <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:messages.deleteComment'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+      <b:includable id='commentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+      <b:includable id='commentFormIframeSrc' var='post'>
+  <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+</b:includable>
+      <b:includable id='commentItem' var='comment'>
+  <div class='comment' expr:id='&quot;c&quot; + data:comment.id'>
+    <b:include cond='data:blog.enabledCommentProfileImages' name='commentAuthorAvatar'/>
+
+    <div class='comment-block'>
+      <div class='comment-author'>
+        <b:if cond='data:comment.authorUrl'>
+          <b:message name='messages.authorSaidWithLink'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+            <b:param expr:value='data:comment.authorUrl' name='authorUrl'/>
+          </b:message>
+        <b:else/>
+          <b:message name='messages.authorSaid'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+          </b:message>
+        </b:if>
+      </div>
+      <div expr:class='&quot;comment-body&quot; + (data:comment.isDeleted ? &quot; deleted&quot; : &quot;&quot;)'>
+        <data:comment.body/>
+      </div>
+      <div class='comment-footer'>
+        <span class='comment-timestamp'>
+          <a expr:href='data:comment.url' title='comment permalink'>
+            <data:comment.timestamp/>
+          </a>
+          <b:include data='comment' name='commentDeleteIcon'/>
+        </span>
+      </div>
+    </div>
+  </div>
+</b:includable>
+      <b:includable id='commentList' var='comments'>
+  <div id='comments-block'>
+    <b:loop values='data:comments' var='comment'>
+      <b:include data='comment' name='commentItem'/>
+    </b:loop>
+  </div>
+</b:includable>
+      <b:includable id='commentPicker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <b:include data='post' name='iframeComments'/>
+  <b:elseif cond='data:post.showThreadedComments'/>
+    <b:include data='post' name='threadedComments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+      <b:includable id='comments' var='post'>
+  <section expr:class='&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+
+      <b:include name='commentsTitle'/>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <b:include cond='data:post.comments' data='post.comments' name='commentList'/>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <div class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+              <data:messages.oldest/>
+            </a>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+              <data:messages.older/>
+            </a>
+          </b:if>
+
+          <span class='comment-range-text'>
+            <data:post.commentRangeText/>
+          </span>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+              <data:messages.newer/>
+            </a>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+              <data:messages.newest/>
+            </a>
+          </b:if>
+        </div>
+      </b:if>
+
+      <div class='footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='commentForm'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <b:include data='post' name='addComments'/>
+          </b:if>
+        </b:if>
+      </div>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+      <b:includable id='commentsLink'>
+  <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:if cond='data:post.numberOfComments &gt; 0'>
+      <b:message name='messages.numberOfComments'>
+        <b:param expr:value='data:post.numberOfComments' name='numComments'/>
+      </b:message>
+    <b:else/>
+      <data:messages.postAComment/>
+    </b:if>
+  </a>
+</b:includable>
+      <b:includable id='commentsLinkIframe'>
+  <span class='cmt_count_iframe_holder' expr:data-count='data:post.numberOfComments' expr:data-onclick='data:post.commentsUrlOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.url.canonical.http'>
+  </span>
+</b:includable>
+      <b:includable id='commentsTitle'>
+  <h3 class='title'><data:messages.comments/></h3>
+</b:includable>
+      <b:includable id='defaultAdUnit'>
+  <ins class='adsbygoogle' data-ad-format='auto' expr:data-ad-client='data:adClientId ?: data:blog.adsenseClientId' expr:data-ad-host='data:blog.adsenseHostId' expr:data-analytics-uacct='data:blog.analyticsAccountNumber' expr:style='data:style ?: &quot;display: block;&quot;'/>
+  <script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</b:includable>
+      <b:includable id='emailPostIcon'>
+  <span class='byline post-icons'>
+    <!-- email post links -->
+    <span class='item-action'>
+      <a expr:href='data:post.emailPostUrl' expr:title='data:messages.emailPost'>
+        <b:include data='{ iconClass: &quot;touch-icon sharing-icon&quot; }' name='emailIcon'/>
+      </a>
+    </span>
+  </span>
+</b:includable>
+      <b:includable id='facebookShare'>
+  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+      <b:includable id='feedLinks'>
+  <b:if cond='!data:view.isPost'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments and data:post.feedLinks'>
+          <b:include data='post.feedLinks' name='feedLinksBody'/>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:messages.subscribeTo/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+      <b:includable id='footerBylines'>
+  <b:if cond='data:widgets.Blog.first.footerBylines'>
+    <b:loop index='i' values='data:widgets.Blog.first.footerBylines' var='region'>
+      <b:if cond='not data:region.items.empty'>
+        <div expr:class='&quot;post-footer-line post-footer-line-&quot; + (data:i + 1)'>
+          <b:with value='&quot;footer-&quot; + (data:i + 1)' var='regionName'>
+            <b:include data='region.items' name='bylineRegion'/>
+          </b:with>
+        </div>
+      </b:if>
+    </b:loop>
+  </b:if>
+</b:includable>
+      <b:includable id='googlePlusShare'>
+  <div class='goog-inline-block google-plus-share-container'>
+    <g:plusone annotation='inline' expr:href='data:originalUrl.canonical.http' size='medium' source='blogger:blog:plusone'/>
+  </div>
+</b:includable>
+      <b:includable id='headerByline'>
+  <b:if cond='data:widgets.Blog.first.headerByline'>
+    <div class='post-header'>
+      <div class='post-header-line-1'>
+        <b:with value='&quot;header-1&quot;' var='regionName'>
+          <b:include data='data:widgets.Blog.first.headerByline.items' name='bylineRegion'/>
+        </b:with>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='homePageLink'>
+  <a class='home-link' expr:href='data:blog.homepageUrl'>
+    <data:messages.home/>
+  </a>
+</b:includable>
+      <b:includable id='iframeComments' var='post'>
+  <b:if cond='data:post.allowIframeComments'>
+    <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
+    <div class='cmt_iframe_holder' expr:data-href='data:post.url.canonical' expr:data-viewtype='data:post.viewType'/>
+
+    <b:if cond='!data:post.embedCommentForm'>
+      <b:include data='post' name='commentsLink'/>
+    </b:if>
+  </b:if>
+</b:includable>
+      <b:includable id='inlineAd' var='post'>
+  <b:if cond='!data:view.isPreview'>
+    <b:if cond='data:this.adCode or data:this.adClientId or data:blog.adsenseClientId'>
+      <!-- Ad -->
+      <div class='inline-ad'>
+        <b:if cond='data:this.adCode != &quot;&quot;'>
+          <data:this.adCode/>
+        <b:else/>
+          <b:include cond='data:this.adClientId or data:blog.adsenseClientId' name='defaultAdUnit'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <div class='inline-ad'>
+      <div class='inline-ad-placeholder'>
+        <span><b:message name='messages.adsGoHere'/></span>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='linkShare'>
+  <b:with value='&quot;window.prompt(\&quot;Copy to clipboard: Ctrl+C, Enter\&quot;, \&quot;&quot; + data:originalUrl + &quot;\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+      <b:includable id='nextPageLink'>
+  <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:messages.olderPosts'>
+    <data:messages.olderPosts/>
+  </a>
+</b:includable>
+      <b:includable id='otherSharingButton'>
+  <span class='sharing-platform-button sharing-element-other' expr:aria-label='data:messages.shareToOtherApps.escaped' expr:data-url='data:originalUrl' expr:title='data:messages.shareToOtherApps.escaped' role='menuitem' tabindex='-1'>
+    <b:with value='{key: &quot;sharingOther&quot;}' var='platform'>
+      <b:include name='sharingPlatformIcon'/>
+    </b:with>
+    <span class='platform-sharing-text'><data:messages.shareOtherApps.escaped/></span>
+  </span>
+</b:includable>
+      <b:includable id='platformShare'>
+  <a expr:class='&quot;goog-inline-block sharing-&quot; + data:platform.key' expr:data-url='data:originalUrl' expr:href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:onclick='data:onclick ? data:onclick : &quot;&quot;' expr:title='data:platform.shareMessage' target='_blank'>
+    <span class='share-button-link-text'>
+      <data:platform.shareMessage/>
+    </span>
+  </a>
+</b:includable>
+      <b:includable id='post' var='post'>
+  <div class='post'>
+    <b:include data='post' name='postMeta'/>
+    <b:include data='post' name='postTitle'/>
+    <b:include name='headerByline'/>
+    <b:if cond='data:view.isSingleItem'>
+      <b:include data='post' name='postBody'/>
+    <b:else/>
+      <b:include data='post' name='postBodySnippet'/>
+      <b:include data='post' name='postJumpLink'/>
+    </b:if>
+    <b:include data='post' name='postFooter'/>
+  </div>
+</b:includable>
+      <b:includable id='postAuthor'>
+  <span class='byline post-author vcard'>
+    <span class='post-author-label'>
+      <data:byline.label/>
+    </span>
+    <span class='fn'>
+      <b:if cond='data:post.author.profileUrl'>
+        <meta expr:content='data:post.author.profileUrl'/>
+        <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+          <span><data:post.author.name/></span>
+        </a>
+      <b:else/>
+        <span><data:post.author.name/></span>
+      </b:if>
+    </span>
+  </span>
+</b:includable>
+      <b:includable id='postBody' var='post'>
+  <!-- If metaDescription is empty, use the post body as the schema.org description too, for G+/FB snippeting. -->
+  <div class='post-body entry-content float-container' expr:id='&quot;post-body-&quot; + data:post.id'>
+    <data:post.body/>
+  </div>
+</b:includable>
+      <b:includable id='postBodySnippet' var='post'>
+  <b:include data='post' name='postBody'/>
+</b:includable>
+      <b:includable id='postCommentsAndAd' var='post'>
+  <article class='post-outer-container'>
+    <!-- Post title and body -->
+    <div class='post-outer'>
+      <b:include data='post' name='post'/>
+    </div>
+
+    <!-- Comments -->
+    <b:include cond='data:view.isSingleItem' data='post' name='commentPicker'/>
+
+    <!-- Show ad inside post container, after comments, if single item. -->
+    <b:include cond='data:view.isSingleItem and data:post.includeAd' data='post' name='inlineAd'/>
+  </article>
+
+  <!-- Show ad outside post container (between posts) for feed pages. -->
+  <b:include cond='data:view.isMultipleItems and data:post.includeAd' data='post' name='inlineAd'/>
+</b:includable>
+      <b:includable id='postCommentsLink'>
+  <b:if cond='data:view.isMultipleItems'>
+    <span class='byline post-comment-link container'>
+      <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
+      <b:include cond='data:post.commentSource == 1' name='commentsLinkIframe'/>
+    </span>
+  </b:if>
+</b:includable>
+      <b:includable id='postFooter' var='post'>
+  <div class='post-footer'>
+    <b:include name='footerBylines'/>
+    <b:include data='post' name='postFooterAuthorProfile'/>
+  </div>
+</b:includable>
+      <b:includable id='postFooterAuthorProfile' var='post'>
+  <b:if cond='data:post.author.aboutMe and data:view.isPost'>
+    <div class='author-profile'>
+      <b:if cond='data:post.author.authorPhoto.url'>
+        <img class='author-image' expr:src='data:post.author.authorPhoto.url' width='50px'/>
+        <div class='author-about'>
+          <b:include data='post' name='aboutPostAuthor'/>
+        </div>
+      <b:else/>
+        <b:include data='post' name='aboutPostAuthor'/>
+      </b:if>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='postHeader' var='post'>
+  <b:include name='headerByline'/>
+</b:includable>
+      <b:includable id='postJumpLink' var='post'>
+  <div class='jump-link flat-button'>
+    <a expr:href='data:post.url fragment &quot;more&quot;' expr:title='data:post.title'>
+      <b:eval expr='data:blog.jumpLinkMessage'/>
+    </a>
+  </div>
+</b:includable>
+      <b:includable id='postLabels'>
+  <span class='byline post-labels'>
+    <span class='byline-label'><data:byline.label/></span>
+    <b:loop index='i' values='data:post.labels' var='label'>
+      <a expr:href='data:label.url' rel='tag'>
+        <data:label.name/>
+      </a>
+    </b:loop>
+  </span>
+</b:includable>
+      <b:includable id='postLocation'>
+  <span class='byline post-location'>
+    <data:byline.label/>
+    <a expr:href='data:post.location.mapsUrl' target='_blank'><data:post.location.name/></a>
+  </span>
+</b:includable>
+      <b:includable id='postMeta' var='post'>
+  <b:include data='post' name='postMetadataJSON'/>
+</b:includable>
+      <b:includable id='postMetadataJSONImage'>
+  &quot;image&quot;: {
+    &quot;@type&quot;: &quot;ImageObject&quot;,
+    <b:if cond='data:post.featuredImage.isResizable'>
+    &quot;url&quot;: &quot;<b:eval expr='resizeImage(data:post.featuredImage, 1200, &quot;1200:630&quot;)'/>&quot;,
+    &quot;height&quot;: 630,
+    &quot;width&quot;: 1200
+    <b:else/>
+    &quot;url&quot;: &quot;https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200&quot;,
+    &quot;height&quot;: 348,
+    &quot;width&quot;: 1200
+    </b:if>
+  },
+</b:includable>
+      <b:includable id='postMetadataJSONPublisher'>
+ &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;Blogger&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60&quot;,
+      &quot;width&quot;: 206,
+      &quot;height&quot;: 60
+    }
+  },
+</b:includable>
+      <b:includable id='postPagination'>
+  <div class='blog-pager container' id='blog-pager'>
+    <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+    <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+    <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
+  </div>
+</b:includable>
+      <b:includable id='postReactions'>
+  <span class='byline reactions'>
+    <span class='reactions-label'>
+      <data:byline.label/>
+    </span>
+    <iframe allowtransparency='true' class='reactions-iframe' expr:src='data:post.reactionsUrl' frameborder='0' name='reactions' scrolling='no'/>
+  </span>
+</b:includable>
+      <b:includable id='postShareButtons'>
+  <div class='byline post-share-buttons goog-inline-block'>
+    <b:with value='data:sharingId ?: ((data:widget.instanceId ?: &quot;sharing&quot;) + &quot;-&quot; + (data:regionName ?: &quot;byline&quot;) + &quot;-&quot; + data:post.id)' var='sharingId'>
+      <!-- Note: 'sharingButtons' includable is from the default Sharing widget markup. -->
+      <b:include data='{                                                sharingId: data:sharingId,                                                originalUrl: data:post.url,                                                platforms: data:this.sharing.platforms,                                                shareUrl: data:post.shareUrl,                                                shareTitle: data:post.title,                                              }' name='sharingButtons'/>
+    </b:with>
+  </div>
+</b:includable>
+      <b:includable id='postTimestamp'>
+  <span class='byline post-timestamp'>
+    <data:byline.label/>
+    <b:if cond='data:post.url'>
+      <meta expr:content='data:post.url.canonical'/>
+      <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'>
+        <time class='published' expr:datetime='data:post.date.iso8601' expr:title='data:post.date.iso8601'>
+          <data:post.date/>
+        </time>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+      <b:includable id='postTitle' var='post'>
+  <a expr:name='data:post.id'/>
+  <b:if cond='data:post.title != &quot;&quot;'>
+    <h3 class='post-title entry-title'>
+      <b:if cond='data:post.link or (data:post.url and data:view.url != data:post.url)'>
+        <a expr:href='data:post.link ?: data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+    </h3>
+  </b:if>
+</b:includable>
+      <b:includable id='previousPageLink'>
+  <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:messages.newerPosts'>
+    <data:messages.newerPosts/>
+  </a>
+</b:includable>
+      <b:includable id='sharingButton'>
+  <span expr:aria-label='data:platform.shareMessage' expr:class='&quot;sharing-platform-button sharing-element-&quot; + data:platform.key' expr:data-href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:data-url='data:originalUrl' expr:title='data:platform.shareMessage' role='menuitem' tabindex='-1'>
+    <b:include name='sharingPlatformIcon'/>
+    <span class='platform-sharing-text'><data:platform.name/></span>
+  </span>
+</b:includable>
+      <b:includable id='sharingButtonContent'>
+  <div class='flat-icon-button ripple'>
+    <b:include name='shareIcon'/>
+  </div>
+</b:includable>
+      <b:includable id='sharingButtons'>
+  <div class='sharing' expr:aria-owns='&quot;sharing-popup-&quot; + data:sharingId' expr:data-title='data:shareTitle'>
+    <button class='sharing-button touch-icon-button' expr:aria-controls='&quot;sharing-popup-&quot; + data:sharingId' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-button-&quot; + data:sharingId' role='button'>
+      <b:include name='sharingButtonContent'/>
+    </button>
+    <b:include name='sharingButtonsMenu'/>
+  </div>
+</b:includable>
+      <b:includable id='sharingButtonsMenu'>
+  <div class='share-buttons-container'>
+    <ul aria-hidden='true' class='share-buttons hidden' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-popup-&quot; + data:sharingId' role='menu'>
+      <b:loop values='(data:platforms ?: data:blog.sharing.platforms) filter (p =&gt; p.key not in {&quot;blogThis&quot;})' var='platform'>
+        <li>
+          <b:include name='sharingButton'/>
+        </li>
+      </b:loop>
+      <li aria-hidden='true' class='hidden'>
+        <b:include name='otherSharingButton'/>
+      </li>
+    </ul>
+  </div>
+</b:includable>
+      <b:includable id='sharingPlatformIcon'>
+  <b:include data='{ iconClass: (&quot;touch-icon sharing-&quot; + data:platform.key) }' expr:name='data:platform.key + &quot;Icon&quot;'/>
+</b:includable>
+      <b:includable id='threadedCommentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+      <b:includable id='threadedCommentJs' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+  <b:template-script inline='true' name='threaded_comments'/>
+  <script type='text/javascript'>
+    blogger.widgets.blog.initThreadedComments(
+        <data:post.commentJso/>,
+        <data:post.commentMsgs/>,
+        <data:post.commentConfig/>);
+  </script>
+</b:includable>
+      <b:includable id='threadedComments' var='post'>
+  <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+
+    <b:include name='commentsTitle'/>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threadedCommentJs'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threadedCommentForm'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+    </b:widget>
+  </b:section>
+  <b:section class='center' id='center' preferred='yes'>
+    <b:widget id='HTML2' locked='false' title='Thông Tin Thanh Toán' type='HTML' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'>Chào Bạn mình không biết bạn là ai , nhưng nếu bạn đã sử dụng dịch vụ bên team chúng tôi để thanh toán dịch vụ tránh giả mạo các bạn vui lòng thanh toán đến chúng tôi
+theo thông tin như sau : Số Tài khoản.....&lt;b&gt;04101019940526&lt;/b&gt;.....Chủ Tài Khoản &lt;b&gt;.....LE MINH UT.....&lt;/b&gt; Chi Nhánh &lt;b&gt;...Tầng 1, 2 Toà nhà New Horizon, 230 Đại lộ Bình Dương, P. Phú Hoà, TX. Thủ Dầu Một, Bình Dương&lt;/b&gt;</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+    </b:widget>
+  </b:section>
+  <b:section class='right' id='right' preferred='yes'>
+    <b:widget id='HTML6' locked='false' title='Đối Tác Vnit Tech' type='HTML' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'>&lt;center&gt;
+&lt;a href=&quot;https://1.bp.blogspot.com/-HdFfD2-clcQ/XXPLyQfzVcI/AAAAAAAAQBE/QgAP-cmHWPsxKAnuz-wM5wDRbCrBmff5ACLcBGAs/s1600/1567869841973.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;113&quot; data-original-width=&quot;366&quot; height=&quot;61&quot; src=&quot;https://1.bp.blogspot.com/-HdFfD2-clcQ/XXPLyQfzVcI/AAAAAAAAQBE/QgAP-cmHWPsxKAnuz-wM5wDRbCrBmff5ACLcBGAs/s200/1567869841973.png&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;div class=&#39;news-footer&#39;&gt;
+&lt;div class=&#39;news-footer-left&#39;&gt;
+
+&lt;!--&lt;a href=&#39;#&#39; target=&#39;_blank&#39; title=&#39;Liên kết - hợp tác&#39;&gt;&lt;div style=&#39;color:#979696;font-weight:bold;display:inline-block&#39;&gt;Liên Kết Trống &lt;/div&gt;&lt;/a&gt;--&gt;
+&lt;a rel=&#39;nofollow&#39; href=&#39;https://www.niemstyle.com/&#39; target=&#39;_blank&#39; title=&#39;Blog về Thủ thuật Internet, Thủ thuật Máy tính, Thủ thuật Ofice, Thủ thuật Blogspot, Thủ thuật Wordpress&#39;&gt;Niệm Style&lt;/a&gt;
+&lt;a rel=&#39;nofollow&#39; href=&#39;https://www.lopthuthuat.xyz&#39; target=&#39;_blank&#39; title=&#39;Trang blog chia sẻ công nghệ&#39;&gt;Tin Học Văn Phòng&lt;/a&gt;
+&lt;a rel=&#39;nofollow&#39; href=&quot;https://code5giay.blogspot.com&quot; target=&quot;_blank&quot; title=&quot;Blog chia sẽ thủ thuật &amp; Ảnh Bìa Fb&quot;&gt;Code 5 Giây&lt;/a&gt;
+&lt;a rel=&#39;nofollow&#39; href=&#39;#top&#39; target=&#39;_blank&#39; title=&#39;page not found&#39;&gt;liên kết trống&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#39;news-footer-right&#39;&gt;
+&lt;a rel=&#39;nofollow&#39; href=&#39;https://www.hung1001.com/&#39; target=&#39;_blank&#39; title=&#39;Blog về Thủ thuật Internet, Thủ thuật Máy tính, Thủ thuật Ofice, Thủ thuật Blogspot, Thủ thuật Wordpress&#39;&gt;Hưng Hoàng Văn&lt;/a&gt;
+&lt;a rel=&#39;nofollow&#39; href=&#39;https://www.vietblogger.design&#39; target=&#39;_blank&#39; title=&#39;việt blogger&#39;&gt;Việt Blooger&lt;/a&gt;
+&lt;a rel=&#39;nofollow&#39; href=&#39;https://duy0286.blogspot.com&#39; target=&#39;_blank&#39; title=&#39;Tin Tức-Thủ Thuật-Phần Mềm&#39;&gt;DUY 0286&lt;/a&gt;
+&lt;a rel=&#39;nofollow&#39; href=&#39;#&#39; target=&#39;_blank&#39; title=&#39;Blog Chia Sẻ Thủ Thuật - PSD Chất&#39;&gt;Lk Chưa Đặt&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+    </b:widget>
+  </b:section>
+</div></div><div class='clear'/>
+
+<footer itemscope='itemscope' itemtype='http://schema.org/WPFooter'><div class='footer-credits'>
+  &#169; 2016 <a expr:href='data:blog.homepageUrl'>Vnit Tech</a> All Rights Reserved<br/>
+<div class='info-footer'>
+  <a href='//fb.com/starutblog.contact'>Facebook</a> | 
+  <a href='//zalo.me/starutblog'>Zalo Admin</a> | 
+<a href='/p/thong-tin-lien-he.html'>Contact Us</a>
+</div></div>
+</footer>
+  </div>
+
+  <div id='close' onclick='toggleOverlay()'><i class='fa fa-remove'/></div>
+<b:if cond='data:blog.isMobileRequest == &quot;true&quot;'>
+  
+<style>
+  .dropdowns::-webkit-scrollbar{width:5px}
+.dropdowns{font:normal normal 14px Roboto,Arial,sans-serif;background:#fff;overflow:auto;position:fixed;z-index:99999;bottom:0;width:240px;left:-400px;transition:all .3s ease-in-out;top:0;border-top:1px solid #ddd;line-height:48px;box-shadow:0 5px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.nav-menu2{list-style:none;margin:0;*zoom:1;float:left;padding:0}
+.nav-menu2:before,.nav-menu2:after{content:&quot; &quot;;display:table}
+.nav-menu2:after{clear:both}.sub-menu{transition:all .3s ease-in-out}
+.nav-menu2 ul{list-style:none;margin:0;width:auto;white-space:nowrap}
+.nav-menu2 a{display:block;padding:0 15px}
+.nav-menu2 li{position:relative;margin:0}
+.nav-menu2 &gt; li{float:left;width:100%}
+.nav-menu2 &gt; li &gt; a{display:block;height:48px;line-height:48px;color:#666}
+.nav-menu2 &gt; li:hover &gt; a{background:#E6E6E6}
+.nav-menu2 li ul{background:#fff;display:none;-webkit-transition:all .25s ease-out;-moz-transition:all .25s ease-out;-ms-transition:all .25s ease-out;-o-transition:all .25s ease-out;transition:0s;padding:0}
+.nav-menu2 li li ul{left:100%;top:-1px}
+.nav-menu2 li li a.click ul{visibility:visible;opacity:10}
+.nav-menu2 li li a{display:block;color:#666;position:relative;padding-left:53px;line-height:40px}
+.nav-menu2 li li a:hover{background:#f0f0f0}
+.nav-menu2 li li li a{background:#fff;z-index:20;color:#333}
+.nav-menu2 li .dropdown:after{content:&quot;\f105&quot;;font-family:FontAwesome;font-style:normal;font-weight:400;text-decoration:inherit;position:absolute;top:0;right:20px;color:#444}
+.nav-menu2 li .dropdown.open:after{content:&quot;\f107&quot;;font-family:FontAwesome;font-style:normal;font-weight:400;text-decoration:inherit}
+.nav-menu2 li .dropdown:hover:after{color:#000}
+.nav-menu2 li i{width:32px;height:32px;line-height:32px;text-align:center;color:#fff;border-radius:100px;margin-right:10px}
+.nav li a.click{opacity:1}
+.nav-menu2 h2{font-size:14px;font-weight:normal!important;padding:0 20px;margin:0;overflow:hidden;border-top:1px solid #ddd;color:#999}
+.dropdowns h3,.dropdowns p{padding:0;margin:0;font-weight:400!important}
+.dropdowns .profilemenu{padding:10px;background:#f8f8f8;border-bottom:1px solid #ddd;line-height:2}
+.dropdowns h3{font-size:14px}.nav-menu2 p{font-size:13px}
+.dropdowns img{width:70px;height:70px;border-radius:100%}
+.dropdowns.shows{left:0;opacity:1}
+.darkshadow{visibility:hidden;opacity:0;position:fixed;top:0;background:rgba(0, 0, 0, 0.59);left:0;right:0;bottom:0;margin:0;z-index:99998;transition:all .3s ease-in-out;width:100%;height:100%}
+.darkshadow.shows{visibility:visible;opacity:1}
+  </style>
+  
+<div class='darkshadow'/>
+<nav class='dropdowns' itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement'>
+<div class='wrapper'>
+<ul class='nav nav-menu2'>
+<li><a href='/'><i class='fa fa-home' style='background:#4267b2'/>Trang chủ</a></li>
+
+
+<li class='sub-menu'><a class='dropdown' href='javascript:;'><i class='fa fa-codepen' style='background:#7e5eaf'/>Web Tools</a>
+ <ul class='sub'>
+   <li><a href='/p/up-anh-lay-lick.html'> Úp Ảnh Lấy Link</a></li>
+<li><a href='/2019/06/photopea-online-thiet-ke-anh-dep.html'> Photoshop online</a></li>
+<li><a href='/p/blog-page_84.html'> Test Code Online</a></li>
+<li><a href='/p/img-margin-0-0-10px.html'> Migrating from GitHub </a></li>
+ </ul>
+</li>
+
+<li class='sub-menu'><a class='dropdown' href='javascript:;'><i class='fa fa-facebook-square' style='background:#7e5eaf'/>Fb Tool 1</a>
+ <ul class='sub'>
+   <li><a href='https://leminhut.github.io/facebook-tools.github.io/batkhien'> Bật Khiên Facebook</a></li> 
+	 <li><a href='https://leminhut.github.io/facebook-tools.github.io/cover-token-sang-cookie'> Cover Token </a></li>
+	  <li><a href='https://leminhut.github.io/facebook-tools.github.io/delete-albums'> Delete Album Photo </a></li>
+	    
+<li><a href='https://leminhut.github.io/facebook-tools.github.io/remove-adaccounts-no-payment'> Xóa Tài Khoản Ads Die </a></li>
+
+
+ </ul>
+</li>
+  
+  
+ <li class='sub-menu'><a class='dropdown' href='javascript:;'><i class='fa fa-facebook-square' style='background:#7e5eaf'/>Fb member Tool</a>
+ <ul class='sub'>
+    <li><a href='https://leminhut.github.io/facebook-tools.github.io/send-inbox-to-one-id'> Inbox Manage </a></li>
+	 <li><a href='https://leminhut.github.io/facebook-tools.github.io/addmember'> Kết Bạn Sll Theo ID </a></li>
+ <li><a href='https://leminhut.github.io/facebook-tools.github.io/choc-tat-ca-ban-be'> Chọc All Bạn Bè </a></li>
+<li><a href='https://leminhut.github.io/facebook-tools.github.io/xac-nhan-ban-be'> Xác Nhận Kết Bạn </a></li>
+<li><a href='https://leminhut.github.io/facebook-tools.github.io/loc-ban-be-khong-tuong-tac'> Lọc Bạn Bè  </a></li>
+   <li><a href='https://leminhut.github.io/facebook-tools.github.io/doc-tin-nhan-bang-token'> Read Inbox Cursh </a></li>
+ </ul>
+</li>
+  
+  
+  
+  
+  
+<li class='sub-menu'><a class='dropdown' href='javascript:;'><i class='fa fa-facebook' style='background:#3333FF'/> Facebook </a>
+ <ul class='sub'>
+   <li><a href='/search/label/Marketing%20Facebook'>Marketing Facebook</a></li>
+   <li itemprop='name'><a href='/search/label/Tính%20Năng%20Facebook' itemprop='url'>Tính Năng Facebook</a></li>
+<li itemprop='name'><a href='/search/label/developer%20Facebook' itemprop='url'>Developer</a></li>
+<li itemprop='name'><a href='/search/label/Unlock%20Facebook' itemprop='url'>Unlock Facebook</a></li>
+ </ul>
+</li>
+
+
+<li class='sub-menu'><a class='dropdown' href='javascript:;'><i class='fa fa-folder-open' style='background:#FF9900'/> Blogger</a>
+ <ul class='sub'>
+   <li itemprop='name'><a href='/search/label/Thủ Thuật Blogspot' itemprop='url'>Thủ thuật Blogger</a></li>
+<li itemprop='name'><a href='/search/label/Seo%20Tip' itemprop='url'>SEO Tips</a></li>
+<li itemprop='name'><a href='/search/label/TEMPLATE' itemprop='url'>Template Blogger</a></li>
+<li itemprop='name'><a href='/search/label/Fix%20Lỗi%20Blogger' itemprop='url'>Fix Lỗi Blogger</a></li>
+ </ul>
+</li>
+
+
+<li class='sub-menu'><a class='dropdown' href='javascript:;'><i class='fa fa-android' style='background:#00FF00'/>Androi</a>
+ <ul class='sub'>
+<li itemprop='name'><a href='/search/label/Fix Lỗi Điện Thoại' itemprop='url'>Fix Lỗi Điện Thoại</a></li>
+<li itemprop='name'><a href='/search/label/Thủ Thuật Android' itemprop='url'>Thủ Thuật Hay</a></li>
+<li itemprop='name'><a href='/search/label/Tin Tức Android' itemprop='url'>Tin Tức</a></li>
+<li itemprop='name'><a href='/search/label/apps mod' itemprop='url'>Tải Game , Ứng Dụng Mod</a></li>
+
+ </ul>
+</li>
+
+<li class='sub-menu'><a class='dropdown' href='javascript:;'><i class='fa fa-windows' style='background:#00CCFF'/>Windows</a>
+ <ul class='sub'>
+<li itemprop='name'><a href='/search/label/Thủ Thuật Windows' itemprop='url'>Thủ Thuật Windows</a></li>
+<li itemprop='name'><a href='/search/label/Phần Mềm Máy Tính' itemprop='url'>Phần Mềm</a></li>
+
+ </ul>
+</li>
+
+<li class='sub-menu'><a class='dropdown' href='javascript:;'><i class='fa fa-book' style='background:#FFFF00'/>Sách Chọn Lọc</a>
+ <ul class='sub'>
+<li itemprop='name'><a href='/search/label/sách hay' itemprop='url'>Tất Cả</a></li>
+<li itemprop='name'><a href='/search/label/Sách Kinh Tế' itemprop='url'>Sách Kinh Tế</a></li>
+<li itemprop='name'><a href='/search/label/Sách Kỹ Năng' itemprop='url'>Sách Kỹ Năng</a></li>
+<li itemprop='name'><a href='/search/label/Sách Tâm Lý' itemprop='url'>Sách Tâm Lý</a></li>
+
+ </ul>
+</li>
+
+  <li><a href='mailto:leminhut.starut@gmail.com'><i class='fa fa-envelope' style='background:#d45c5c'/>Liên hệ</a></li>
+
+<li><a href='tel:0359181712'><i class='fa fa-phone' style='background:#33FF00'/>Telephone</a></li>
+
+  <li><a href='https://g.co/kgs/49SGyY'><i class='fa fa-location-arrow' style='background:#6acdec'/>Vị Trí</a></li>
+</ul>
+</div>
+</nav>
+<script>
+  $(document).ready(function(){$(&quot;.toggleMenu&quot;).click(function(){$(&quot;.dropdowns&quot;).toggleClass(&quot;shows&quot;);});});
+$(document).ready(function(){$(&quot;.darkshadow&quot;).click(function(){$(&quot;.dropdowns&quot;).removeClass(&quot;shows&quot;);});});
+$(document).ready(function(){$(&quot;.darkshadow&quot;).click(function(){$(&quot;.darkshadow&quot;).removeClass(&quot;shows&quot;);});});
+$(document).ready(function(){$(&quot;.toggleMenu&quot;).click(function(){$(&quot;.darkshadow&quot;).toggleClass(&quot;shows&quot;);});});
+//<![CDATA[
+// Sub Nav
+var Script=function(){jQuery('.nav-menu2 .sub-menu > a').click(function(){var last=jQuery('.sub-menu.open',$('.nav-menu2'));last.removeClass("open");jQuery('.dropdown').addClass("open");jQuery('.dropdown',last).removeClass("open");jQuery('.sub',last).slideUp(300);var sub=jQuery(this).next();if(sub.is(":visible")){jQuery('.dropdown',jQuery(this)).removeClass("open");jQuery(this).parent().removeClass("open");sub.slideUp(300)}else{jQuery('.dropdown',jQuery(this)).addClass("open");jQuery(this).parent().addClass("open");sub.slideDown(300)}var o=($(this).offset());diff=300-o.top;if(diff>0)$(".nav-menu2").scrollTo("-="+Math.abs(diff),500);else $(".nav-menu2").scrollTo("+="+Math.abs(diff),500)})}();
+//]]>
+  </script>
+</b:if>
 
 </body>
 </html>
