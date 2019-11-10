@@ -15,7 +15,7 @@ loadCSS("https://use.fontawesome.com/releases/v5.1.0/css/all.css");loadCSS("http
 //]]>
 </script>
   <title>
-Lê Anh Đức | Chat Bot
+Blog Vnit | Chat Bot
 </title>
 <!-- Bắt đầu viết Css cho web -->
 <style id='page-skin-1' type='text/css'><!--
@@ -32,8 +32,8 @@ a:hover{cursor:url("https://i.imgur.com/IXULuQ1.png"), auto;}
 </style>
 <div class='chat'>
 <div class='chat-title'>
-<h1>Lê Anh Đức</h1>
-<h2>leanhduc.pro.vn</h2>
+<h1>Blog Vnit</h1>
+<h2>blogvnit.com</h2>
 <figure class='avatar'>
 <img src='https://i.imgur.com/FvP92uC.png'/></figure>
 </div>
